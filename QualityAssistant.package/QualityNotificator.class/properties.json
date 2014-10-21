@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistant",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 10/21/2014 16:50",
+	"instvars" : [
+		 ],
+	"name" : "QualityNotificator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

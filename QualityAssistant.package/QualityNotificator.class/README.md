@@ -1,0 +1,1 @@
+I draw growl popups when quality of something changes
