@@ -328,7 +328,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -377,7 +377,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -426,7 +426,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -475,7 +475,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -524,7 +524,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -573,7 +573,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -622,7 +622,7 @@
 							<key>TailArrow</key>
 							<string>0</string>
 							<key>Width</key>
-							<real>2</real>
+							<real>4</real>
 						</dict>
 					</dict>
 				</dict>
@@ -738,7 +738,7 @@
 								<string>0.196078</string>
 							</dict>
 							<key>Width</key>
-							<real>3</real>
+							<real>5</real>
 						</dict>
 					</dict>
 					<key>Text</key>
@@ -824,7 +824,7 @@
 				<real>12</real>
 			</dict>
 			<key>ID</key>
-			<integer>29</integer>
+			<integer>59</integer>
 			<key>Shape</key>
 			<string>Circle</string>
 			<key>Style</key>
@@ -866,7 +866,7 @@
 				<real>12</real>
 			</dict>
 			<key>ID</key>
-			<integer>28</integer>
+			<integer>60</integer>
 			<key>Shape</key>
 			<string>Circle</string>
 			<key>Style</key>
@@ -908,7 +908,7 @@
 				<real>12</real>
 			</dict>
 			<key>ID</key>
-			<integer>23</integer>
+			<integer>61</integer>
 			<key>Shape</key>
 			<string>AdjustableWedge</string>
 			<key>ShapeData</key>
@@ -1012,7 +1012,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-10-21 16:21:23 +0000</string>
+	<string>2014-10-21 16:50:22 +0000</string>
 	<key>Modifier</key>
 	<string>Yuriy Tymchuk</string>
 	<key>NotesVisible</key>
@@ -1105,15 +1105,15 @@
 		<key>SidebarWidth</key>
 		<integer>230</integer>
 		<key>VisibleRegion</key>
-		<string>{{92.5, 131.5}, {216.75, 174.5}}</string>
+		<string>{{-1300, -1047}, {3468, 2792}}</string>
 		<key>Zoom</key>
-		<real>4</real>
+		<real>0.25</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Canvas 1</string>
-				<real>4</real>
-				<real>2</real>
+				<real>0.25</real>
+				<real>1</real>
 			</array>
 		</array>
 	</dict>
