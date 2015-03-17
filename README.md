@@ -14,4 +14,5 @@ To install:
       project: 'Configuration';
       configurationOf: 'QualityAssistant';
       load.
-    #ConfigurationOfQualityAssistant asClass loadDevelopment
+    #ConfigurationOfQualityAssistant asClass loadDevelopment.
+    #QualityAssistantPlugin asClass install
