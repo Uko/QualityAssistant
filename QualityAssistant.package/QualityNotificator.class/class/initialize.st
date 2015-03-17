@@ -1,4 +1,6 @@
 class initialization
 initialize
-	self unsubscribe.
-	self subscribe
+	"for now we will deactivate this"
+
+	"self unsubscribe.
+	self subscribe"
