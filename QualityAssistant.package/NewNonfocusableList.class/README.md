@@ -1,0 +1,1 @@
+Same as New list but does not accept focus 

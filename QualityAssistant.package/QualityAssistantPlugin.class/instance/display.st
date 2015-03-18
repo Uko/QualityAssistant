@@ -1,7 +1,7 @@
 display
 display
 
-   morph := (NewList on: self
+   morph := (NewNonfocusableList on: self
 		getItemsSelector: #getCritics
 		setIndexSelector: #selected:
 		getDisplaySelector: #displayCritic:)

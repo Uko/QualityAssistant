@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistant",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/18/2015 11:40",
+	"instvars" : [
+		 ],
+	"name" : "NewNonfocusableList",
+	"pools" : [
+		 ],
+	"super" : "NewList",
+	"type" : "normal" }
