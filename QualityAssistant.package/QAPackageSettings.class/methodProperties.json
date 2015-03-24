@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"worldMenu:" : "YuriyTymchuk 3/24/2015 11:38" },
+	"instance" : {
+		"filterList" : "YuriyTymchuk 3/24/2015 20:32",
+		"filterList:" : "YuriyTymchuk 3/24/2015 21:56",
+		"initialize" : "YuriyTymchuk 3/24/2015 21:35",
+		"initializePackages" : "YuriyTymchuk 3/24/2015 11:15",
+		"loadFromFile" : "YuriyTymchuk 3/24/2015 11:00",
+		"matchesPackage:" : "YuriyTymchuk 3/24/2015 21:24",
+		"matchesPackageName:" : "YuriyTymchuk 3/24/2015 21:24",
+		"packageAdded:" : "YuriyTymchuk 3/24/2015 21:20",
+		"packageRemoved:" : "YuriyTymchuk 3/24/2015 21:21",
+		"packageRenamed:" : "YuriyTymchuk 3/24/2015 21:30",
+		"packages" : "YuriyTymchuk 3/24/2015 11:13",
+		"saveToFile" : "YuriyTymchuk 3/24/2015 21:56",
+		"storageFile" : "YuriyTymchuk 3/24/2015 10:06",
+		"subscribe" : "YuriyTymchuk 3/24/2015 21:14",
+		"unsubscribe" : "YuriyTymchuk 3/24/2015 21:33" } }

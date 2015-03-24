@@ -1,0 +1,1 @@
+I'm a simple UI for editing package regexes.

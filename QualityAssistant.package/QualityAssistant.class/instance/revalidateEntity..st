@@ -1,6 +1,7 @@
 actions
 revalidateEntity: anEntity 
 	| old new added removed |
+	(settings packages includes: anEntity package) ifFalse: [ ^ self ].
 	
 	old := anEntity critics keys.
 	anEntity validateWith: rules.

@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistant",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/24/2015 21:32",
+	"instvars" : [
+		"regexList" ],
+	"name" : "QAPackageSettingsUI",
+	"pools" : [
+		 ],
+	"super" : "GLMCompositePresentation",
+	"type" : "normal" }

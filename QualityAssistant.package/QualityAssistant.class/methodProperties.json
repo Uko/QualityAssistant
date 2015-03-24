@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"icon" : "YuriyTymchuk 3/24/2015 11:33",
+		"iconContents" : "YuriyTymchuk 3/24/2015 11:35",
 		"initialize" : "YuriyTymchuk 10/21/2014 12:35",
 		"new" : "YuriyTymchuk 10/21/2014 11:48" },
 	"instance" : {
@@ -9,10 +11,11 @@
 		"classModified:" : "YuriyTymchuk 10/21/2014 15:12",
 		"compRule" : "YuriyTymchuk 10/21/2014 15:08",
 		"initRules" : "YuriyTymchuk 10/21/2014 12:27",
-		"initialize" : "YuriyTymchuk 10/21/2014 12:27",
+		"initialize" : "YuriyTymchuk 3/24/2015 10:38",
 		"methodAdded:" : "YuriyTymchuk 10/21/2014 15:12",
 		"methodModified:" : "YuriyTymchuk 10/21/2014 15:12",
 		"methodRecategorized:" : "YuriyTymchuk 10/21/2014 15:12",
-		"revalidateEntity:" : "YuriyTymchuk 10/21/2014 16:31",
+		"revalidateEntity:" : "YuriyTymchuk 3/24/2015 21:32",
+		"settingsUI" : "YuriyTymchuk 3/24/2015 10:52",
 		"subscribe" : "YuriyTymchuk 10/21/2014 16:34",
 		"unSubscribe" : "YuriyTymchuk 10/21/2014 12:31" } }
