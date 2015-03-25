@@ -2,6 +2,6 @@ initialization
 initialize
 
 	self unSubscribe.
-	self initRules.
 	settings := QAPackageSettings new.
+	validationEngine := QAValidationEngine new.
 	self subscribe.
