@@ -8,5 +8,7 @@ initialize
 		title: 'Validating entities';
 		block: [ 
 			[ queue notEmpty ] whileTrue: [
-				self process: (queue removeFirst) ] ];
+				JobProgress title: 'Validating entities: ', queue size asString.
+				self process: (queue removeFirst).
+				Processor yield ] ];
 		yourself
