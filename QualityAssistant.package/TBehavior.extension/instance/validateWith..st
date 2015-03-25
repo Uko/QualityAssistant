@@ -3,7 +3,7 @@ validateWith: aCompRule
 	
 	self critics removeAll.
 	aCompRule resetResult.
-	aCompRule checkClass: self.
+	[ aCompRule checkMethod: self ] on: Error do: [ ].
 	aCompRule leaves
 		select: [ :rule | rule critics notEmpty ]
 		thenDo: [ :rule |

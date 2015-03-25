@@ -3,6 +3,7 @@ initialize
 	
 	rules := RBCompositeLintRule allGoodRules.
 	queue := OrderedCollection new.
+	inProgress := false.
 	
 	job := Job new
 		title: 'Validating entities';

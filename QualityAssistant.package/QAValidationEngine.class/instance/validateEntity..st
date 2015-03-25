@@ -3,5 +3,9 @@ validateEntity: anEntity
 	
 	queue add: anEntity.
 	
-	job isRunning ifFalse: [ 
-		[ job run ] fork. ]
+	inProgress ifTrue: [ ^ self ].
+	
+	inProgress := true. 
+	[
+		job run.
+		inProgress := false ] fork 
