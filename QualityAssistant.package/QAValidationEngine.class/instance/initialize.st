@@ -7,8 +7,15 @@ initialize
 	job := Job new
 		title: 'Validating entities';
 		block: [ 
+			| lastUpdate msecs |
+			lastUpdate := 0.
+			msecs := 500.
+			
 			[ queue notEmpty ] whileTrue: [
-				JobProgress title: 'Validating entities: ', queue size asString.
 				self process: (queue removeFirst).
-				Processor yield ] ];
-		yourself
+				
+				(Time millisecondsSince: lastUpdate) >= msecs ifTrue: [
+					JobProgress title: 'Validating entities: ', queue size asString.
+					lastUpdate := Time millisecondClockValue.
+					Processor yield ] ] ];
+		yourself 
