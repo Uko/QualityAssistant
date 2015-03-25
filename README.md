@@ -1,4 +1,4 @@
-_:exclamation: this is **super-alpha** version, it may work bad :exclamation:_
+_:exclamation: this is an **alpha** version, it may contain bugs, please report them [here](https://github.com/Uko/QualityAssistant/issues) :exclamation:_
 
 QualityAssistant
 ================
@@ -16,3 +16,5 @@ To install:
       load.
     #ConfigurationOfQualityAssistant asClass loadDevelopment.
     #QualityAssistantPlugin asClass install
+
+After installing open _Quality Assistant_ from the world menu, and add regular expressions of the package names that should be automatically validated (e.g. the packages that you are developing).
