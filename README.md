@@ -17,4 +17,4 @@ To install:
     #ConfigurationOfQualityAssistant asClass loadDevelopment.
     #QualityAssistantPlugin asClass install
 
-After installing open _Quality Assistant_ from world menu, and add the regular expressions of package names that should be automatically validated (e.g. the packages that you are developing).
+After installing open _Quality Assistant_ from the world menu, and add regular expressions of the package names that should be automatically validated (e.g. the packages that you are developing).
