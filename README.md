@@ -1,9 +1,13 @@
 Quality Assistant 𝑏𝑒𝑡𝑎 [![Build Status](https://ci.inria.fr/pharo-contribution/buildStatus/icon?job=QualityAssistant)](https://ci.inria.fr/pharo-contribution/job/QualityAssistant/)
 =====================
 
-Hi, I'm your personal quality assistant. I run SmallLint rules on the code that you modify, and notify you about the critics right in the system browser. If you will find any bugs in me please [report them](https://github.com/Uko/QualityAssistant/issues).
+Hi, I'm your personal quality assistant. I run SmallLint rules on the code that you modify, and notify you about the critics right in the system browser. If you find any bugs in me please [report them](https://github.com/Uko/QualityAssistant/issues).
 
 ![logo](graphics/logo100.png)
+
+- [Installation](#installation)
+- [Set Up](#set-up)
+- [Usage](#usage)
 
 Installation
 ------------
