@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfQualityAssistant",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfQualityAssistant",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
