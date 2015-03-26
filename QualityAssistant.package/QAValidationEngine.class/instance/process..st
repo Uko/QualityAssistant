@@ -11,6 +11,4 @@ process: anEntity
 	
 	(added notEmpty or: [ removed notEmpty ]) ifTrue: [ "
 		SystemAnnouncer uniqueInstance
-			criticsOf: anEntity
-			added: #() "added"
-			removed: #() "removed ]"
+			qualityChanged: anEntity
