@@ -8,4 +8,5 @@ packagesIn: composite
 			select: [ :pack |
 			regexList asArray anySatisfy: [ :regex |
 				regex asRegex matches: pack name ] ]) ];
-		format: [ :each | each name ]
+		format: [ :each | each name ];
+		sorted: [ :a :b | a name < b name ]
