@@ -14,12 +14,13 @@ Installation
 
 The easiest way to install is to use **Configuration browser**. Otherwise you can execute the following script.
 
-    Gofer new
-      smalltalkhubUser: 'Pharo'
-      project: 'MetaRepoForPharo40';
-      configurationOf: 'QualityAssistant';
-      load.
-    #ConfigurationOfQualityAssistant asClass loadDevelopment
+```Smalltalk
+Metacello new
+  smalltalkhubUser: 'Pharo'
+  project: 'MetaRepoForPharo40';
+  configuration: 'QualityAssistant';
+  load
+```
 
 Set Up
 ------
