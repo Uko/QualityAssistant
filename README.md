@@ -1,20 +1,32 @@
-_:exclamation: this is an **alpha** version, it may contain bugs, please report them [here](https://github.com/Uko/QualityAssistant/issues) :exclamation:_
+Quality Assistant 𝑏𝑒𝑡𝑎 [![Build Status](https://ci.inria.fr/pharo-contribution/buildStatus/icon?job=QualityAssistant)](https://ci.inria.fr/pharo-contribution/job/QualityAssistant/)
+=====================
 
-QualityAssistant
-================
+Hi, I'm your personal quality assistant. I run SmallLint rules on the code that you modify, and notify you about the critics right in the system browser. If you will find any bugs in me please [report them](https://github.com/Uko/QualityAssistant/issues).
 
 ![logo](graphics/logo100.png)
 
-Hi, I'm your personal quality assistant. I run Smalllint rules on the code that you modify, and notify you about quality changes.
+Installation
+------------
 
-To install:
+The easiest way to install is to use **Configuration browser**. Otherwise you can execute the following script.
 
     Gofer new
-      smalltalkhubUser: 'YuriyTymchuk'
-      project: 'Configuration';
+      smalltalkhubUser: 'Pharo'
+      project: 'MetaRepoForPharo40';
       configurationOf: 'QualityAssistant';
       load.
-    #ConfigurationOfQualityAssistant asClass loadDevelopment.
-    #QualityAssistantPlugin asClass install
+    #ConfigurationOfQualityAssistant asClass loadDevelopment
 
-After installing open _Quality Assistant_ from the world menu, and add regular expressions of the package names that should be automatically validated (e.g. the packages that you are developing).
+Set Up
+------
+
+Select "Quality Assistant" in **World menu**. Add regular expressions that will match the package names which you want to be automatically validated. Then press **Accept**, this will finalize and store the configuration. This setup will be used by Quality Assistant in **all future** images.
+
+![set up](graphics/setup.png)
+
+Usage
+-----
+
+Quality Assistant uses Nautilus plugin to notify uses about the critics. The plugin is automatically activated and will be available in all browsers **opened after** loading Quality Assistant. By default the plugin is positioned at the bottom of Nautilus browser, and will display a list of critics for a selected class or method. Clicking on the question mark will bring up the rationale on the critic. Clicking on the critic text will highlight the part of problematic code (if possible).
+
+![critics](graphics/critics.png)
