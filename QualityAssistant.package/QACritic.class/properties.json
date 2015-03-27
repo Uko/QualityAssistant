@@ -1,0 +1,16 @@
+{
+	"category" : "QualityAssistant",
+	"classinstvars" : [
+		"iconSeverityDict" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/27/2015 14:19",
+	"instvars" : [
+		"rule",
+		"target",
+		"selection" ],
+	"name" : "QACritic",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

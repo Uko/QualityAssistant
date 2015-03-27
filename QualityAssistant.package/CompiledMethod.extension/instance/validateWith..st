@@ -7,8 +7,9 @@ validateWith: aCompRule
 	aCompRule leaves
 		select: [ :rule | rule critics notEmpty ]
 		thenDo: [ :rule |
-			self critics
-				at: rule
-				put: (rule result selectionIntervalFor: self definition) ].
+			self critics add: (QACritic
+				for: self
+				by: rule
+				at: (rule result selectionIntervalFor: self definition)) ].
 			
 	^ self critics

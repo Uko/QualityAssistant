@@ -7,6 +7,6 @@ validateEntity: anEntity
 	
 		inProgress := true. 
 		[
-			job run.
-			inProgress := false
+			[ job run ] ensure: [  
+				inProgress := false ]
 		] forkAt: Processor userBackgroundPriority ]

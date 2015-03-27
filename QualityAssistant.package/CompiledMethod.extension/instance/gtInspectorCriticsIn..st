@@ -5,7 +5,17 @@ gtInspectorCriticsIn: composite
 	composite list 
 		when: [ self hasCritics ];
 		title: self numberOfCritics asString, (' critic' asPluralBasedOn: self critics);
-		color: Color red;
-		display: [ self critics keys ];
-		format: #name;
-		tags: [ :each | { each category } ]
+		titleIcon: [ CircleMorph new
+			extent: 16 @ 16;
+			borderWidth: 0;
+			color: Color red darker darker;
+			addMorphCentered:
+				(self numberOfCritics asStringMorph
+					color: Color white;
+					emphasis: 1;
+					yourself);
+			iconOrThumbnail ];
+		display: [ self critics ];
+		icon: #icon;
+		format: [ :critic | critic rule name ];
+		tags: [ :critic | { critic rule category } ]

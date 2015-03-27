@@ -11,6 +11,8 @@ display
 		hResizing: #spaceFill";
 		yourself".
 		
+		true | false = true.
+		
 	morph adapter
 		allowToSelectSelector: #allowToSelect;
 		getIconSelector: #iconFor:at:;
