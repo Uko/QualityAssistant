@@ -8,10 +8,8 @@ display
 		hideHScrollBarIndefinitely: true;
 		height: 58;
 		vResizing: #shrinkWrap; 
-		hResizing: #spaceFill";
-		yourself".
-		
-		true | false = true.
+		hResizing: #spaceFill;
+		yourself.
 		
 	morph adapter
 		allowToSelectSelector: #allowToSelect;
