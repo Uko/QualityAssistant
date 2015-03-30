@@ -1,4 +1,4 @@
 morphic-related-stuff
 displayCritic: aCritic
 
-	^ aCritic rule name asStringMorph 
+	^ aCritic title asStringMorph 

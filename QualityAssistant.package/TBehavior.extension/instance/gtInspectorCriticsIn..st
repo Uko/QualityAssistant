@@ -17,5 +17,5 @@ gtInspectorCriticsIn: composite
 			iconOrThumbnail ];
 		display: [ self critics ];
 		icon: #icon;
-		format: [ :critic | critic rule name ];
+		format: #title;
 		tags: [ :critic | { critic rule category } ]

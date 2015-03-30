@@ -5,13 +5,18 @@
 		"iconNameFor:" : "YuriyTymchuk 3/27/2015 17:03",
 		"initialize" : "YuriyTymchuk 3/27/2015 16:58" },
 	"instance" : {
-		"gtInspectorRationaleIn:" : "YuriyTymchuk 3/27/2015 16:49",
+		"description" : "YuriyTymchuk 3/30/2015 14:30",
+		"gtDisplayOn:" : "YuriyTymchuk 3/30/2015 15:32",
+		"gtInspectorDescriptionIn:" : "YuriyTymchuk 3/30/2015 15:25",
 		"gtInspectorSourceCodeIn:" : "YuriyTymchuk 3/27/2015 16:44",
 		"hasSelection" : "YuriyTymchuk 3/27/2015 14:56",
 		"icon" : "YuriyTymchuk 3/27/2015 17:03",
 		"initializeRule:target:" : "YuriyTymchuk 3/27/2015 14:36",
 		"initializeRule:target:selection:" : "YuriyTymchuk 3/27/2015 14:56",
-		"popRationaleUp" : "YuriyTymchuk 3/29/2015 11:15",
+		"popDescriptionUp" : "YuriyTymchuk 3/30/2015 15:27",
 		"rule" : "YuriyTymchuk 3/27/2015 14:35",
 		"selection" : "YuriyTymchuk 3/27/2015 14:35",
-		"target" : "YuriyTymchuk 3/27/2015 14:35" } }
+		"spotterPreviewCodeIn:" : "YuriyTymchuk 3/30/2015 14:27",
+		"spotterPreviewRationaleIn:" : "YuriyTymchuk 3/30/2015 14:31",
+		"target" : "YuriyTymchuk 3/27/2015 14:35",
+		"title" : "YuriyTymchuk 3/30/2015 13:47" } }

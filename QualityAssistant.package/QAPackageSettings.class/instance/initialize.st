@@ -1,8 +1,8 @@
 initialization
 initialize
-	self unsubscribe.
+	self  unsubscribe.
 	super initialize.
-	self loadFromFile.
-	self initializePackages.
-	self subscribe.
+	self  loadFromFile.
+	self  initializePackages.
+	self  subscribe.
 	
