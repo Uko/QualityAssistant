@@ -1,4 +1,4 @@
 properties
 storageFile
 
-	^ (FileLocator preferences / #pharo / #qapackages) ensureCreateFile 
+	^ ((FileLocator preferences / #pharo) ensureCreateDirectory / #qapackages) ensureCreateFile 
