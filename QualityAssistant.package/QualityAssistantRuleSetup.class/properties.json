@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistant",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QualityAssistantRuleSetup",
+	"pools" : [
+		 ],
+	"super" : "QARuleSetup",
+	"type" : "normal" }

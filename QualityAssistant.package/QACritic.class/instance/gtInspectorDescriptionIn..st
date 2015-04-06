@@ -1,6 +1,6 @@
 gt-inspector
 gtInspectorDescriptionIn: composite
-	<gtInspectorPresentationOrder: 1> 
+	<gtInspectorPresentationOrder: 1>
 
 	^ composite text 
 		title: 'Description';
