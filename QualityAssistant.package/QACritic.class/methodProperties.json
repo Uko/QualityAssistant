@@ -6,6 +6,7 @@
 		"initialize" : "YuriyTymchuk 3/27/2015 16:58" },
 	"instance" : {
 		"description" : "YuriyTymchuk 3/30/2015 14:30",
+		"fixAutomatically" : "YuriyTymchuk 4/6/2015 14:14",
 		"gtDisplayOn:" : "YuriyTymchuk 3/30/2015 15:32",
 		"gtInspectorDescriptionIn:" : "YuriyTymchuk 3/30/2015 15:25",
 		"gtInspectorSourceCodeIn:" : "YuriyTymchuk 3/27/2015 16:44",
@@ -13,6 +14,7 @@
 		"icon" : "YuriyTymchuk 3/27/2015 17:03",
 		"initializeRule:target:" : "YuriyTymchuk 3/27/2015 14:36",
 		"initializeRule:target:selection:" : "YuriyTymchuk 3/27/2015 14:56",
+		"isAutofixable" : "YuriyTymchuk 4/6/2015 14:12",
 		"popDescriptionUp" : "YuriyTymchuk 3/30/2015 15:27",
 		"rule" : "YuriyTymchuk 3/27/2015 14:35",
 		"selection" : "YuriyTymchuk 3/27/2015 14:35",

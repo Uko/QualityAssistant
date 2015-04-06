@@ -1,0 +1,4 @@
+properties
+isAutofixable
+
+	^ rule isTransformationRule
