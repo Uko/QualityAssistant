@@ -1,7 +1,8 @@
 *qualityAssistant
 skippedRules
 
-	^ (self pragmaAt: #skipRules:)
-		ifNil: [ Set new ]
-		ifNotNilDo: [ :prag | prag arguments first
-			collect: #asClass ]
+	^ self pragmas
+		select: [ :pragma |
+			pragma keyword = #skipRule: ]
+		thenCollect: [ :pragma |
+			pragma arguments first ]

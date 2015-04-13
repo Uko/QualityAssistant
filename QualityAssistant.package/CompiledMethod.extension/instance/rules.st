@@ -1,6 +1,6 @@
 *qualityAssistant
 rules
 	^ (self methodClass rules
-		copyWithoutAll: (self skippedRules))
-		addAll: (self addedRules);
+		copyWithoutAll: (self skippedRules collect: #asClass))
+		addAll: (self addedRules collect: #asClass);
 		yourself
