@@ -4,7 +4,7 @@ skipButtonFor: aCritic
 	^ IconicButton new
 		target: aCritic;
 		labelGraphic: (Smalltalk ui icons iconNamed: #smallCancelIcon);
-		actionSelector: #skip;
+		actionSelector: #guidedSkip;
 		color: Color transparent;
 		helpText: 'Skip this critic';
 		extent: 16 @ 16;
