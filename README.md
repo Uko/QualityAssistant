@@ -32,6 +32,6 @@ Select "Quality Assistant" in **World menu**. Add regular expressions that will 
 Usage
 -----
 
-Quality Assistant uses Nautilus plugin to notify uses about the critics. The plugin is automatically activated and will be available in all browsers **opened after** loading Quality Assistant. By default the plugin is positioned at the bottom of Nautilus browser, and will display a list of critics for a selected class or method. Clicking on the question mark will bring up the rationale on the critic. Clicking on the critic text will highlight the part of problematic code (if possible).
+Quality Assistant uses Nautilus plugin to notify uses about the critics. The plugin is automatically activated and will be available in all browsers **opened after** loading Quality Assistant. By default the plugin is positioned at the bottom of Nautilus browser, and will display a list of critics for a selected class or method. Clicking on the question mark will bring up the rationale on the critic. Clicking on the critic text will highlight the part of problematic code (if possible). Sometimes a yellow arrow will appear next to critic description. By pressing it you can automatically resolve the issue.
 
 ![critics](graphics/critics.png)
