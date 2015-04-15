@@ -2,7 +2,7 @@ initialization
 initialize
 	
 	rules := RBCompositeLintRule allGoodRules.
-	queue := OrderedCollection new.
+	queue := WaitfreeQueue new.
 	inProgress := false.
 	
 	job := Job new
@@ -12,8 +12,8 @@ initialize
 			lastUpdate := 0.
 			msecs := 500.
 			
-			[ queue notEmpty ] whileTrue: [
-				self process: (queue removeFirst).
+			[ queue isEmpty ] whileFalse: [
+				self process: (queue nextOrNil).
 				
 				(Time millisecondsSince: lastUpdate) >= msecs ifTrue: [
 					JobProgress title: 'Validating entities: ', queue size asString.

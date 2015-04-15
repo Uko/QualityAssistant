@@ -1,6 +1,6 @@
 utility
 validateEntity: anEntity
-	queue add: anEntity.
+	queue nextPut: anEntity.
 	 
 	inProgress ifTrue: [ ^ self ].  	
 	inProgress := true. 
