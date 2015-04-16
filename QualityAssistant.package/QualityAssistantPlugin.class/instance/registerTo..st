@@ -9,9 +9,6 @@ registerTo: aModel
 	
 		when: NautilusClassSelected
 		send: #selectionChanged:
-		to: self.
-		
-	SystemAnnouncer uniqueInstance weak
-		on: QualityChanged send: #qualityChanged: to: self
+		to: self
 		
 	

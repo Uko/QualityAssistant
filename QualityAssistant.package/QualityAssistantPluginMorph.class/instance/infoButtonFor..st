@@ -1,4 +1,4 @@
-morphic-related-stuff
+listLine-morph
 infoButtonFor: aCritic
 	
 	^ IconicButton new

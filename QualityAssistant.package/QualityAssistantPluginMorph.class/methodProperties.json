@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allowToSelect" : "YuriyTymchuk 4/16/2015 09:30",
+		"autofixButtonFor:" : "YuriyTymchuk 4/16/2015 14:35",
+		"createButton" : "YuriyTymchuk 4/16/2015 14:34",
+		"displayCritic:" : "YuriyTymchuk 4/16/2015 14:34",
+		"entity:" : "YuriyTymchuk 4/16/2015 14:54",
+		"getCritics" : "YuriyTymchuk 4/16/2015 10:25",
+		"iconFor:at:" : "YuriyTymchuk 4/16/2015 09:30",
+		"iconMaxSize" : "YuriyTymchuk 4/16/2015 09:30",
+		"infoButtonFor:" : "YuriyTymchuk 4/16/2015 10:35",
+		"initialize" : "YuriyTymchuk 4/16/2015 14:52",
+		"initializeList" : "YuriyTymchuk 4/16/2015 10:12",
+		"qualityChanged:" : "YuriyTymchuk 4/16/2015 14:55",
+		"revalidateEntity" : "YuriyTymchuk 4/16/2015 10:46",
+		"selected:" : "YuriyTymchuk 4/16/2015 10:34",
+		"updateList" : "YuriyTymchuk 4/16/2015 14:55" } }
