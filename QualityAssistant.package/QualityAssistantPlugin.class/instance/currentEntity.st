@@ -1,4 +1,4 @@
-morphic-related-stuff
+properties
 currentEntity
 
 	^ self model selectedClass ifNotNilDo: [ :class |
