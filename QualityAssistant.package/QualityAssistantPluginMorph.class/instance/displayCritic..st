@@ -1,4 +1,4 @@
-morphic-related-stuff
+listLine-morph
 displayCritic: aCritic
 	| listItem |
 	listItem := Morph new

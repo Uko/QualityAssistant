@@ -1,0 +1,16 @@
+{
+	"category" : "QualityAssistant-Plugin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 4/16/2015 14:48",
+	"instvars" : [
+		"listMorph",
+		"entity",
+		"pluginDelegate" ],
+	"name" : "QualityAssistantPluginMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,10 +1,10 @@
 {
-	"category" : "QualityAssistant",
+	"category" : "QualityAssistant-Core",
 	"classinstvars" : [
 		"default" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 4/12/2015 23:47",
+	"commentStamp" : "YuriyTymchuk 3/25/2015 09:29",
 	"instvars" : [
 		"queue",
 		"job",

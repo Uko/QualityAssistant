@@ -6,18 +6,9 @@
 		"possiblePositions" : "YuriyTymchuk 3/17/2015 10:20",
 		"uninstall" : "YuriyTymchuk 3/17/2015 21:32" },
 	"instance" : {
-		"allowToSelect" : "YuriyTymchuk 3/18/2015 13:32",
-		"autofixButtonFor:" : "YuriyTymchuk 4/15/2015 09:13",
+		"criticSelected:" : "YuriyTymchuk 4/16/2015 19:06",
 		"currentEntity" : "YuriyTymchuk 3/17/2015 17:56",
-		"display" : "YuriyTymchuk 4/6/2015 19:05",
-		"displayCritic:" : "YuriyTymchuk 4/8/2015 11:26",
-		"getCritics" : "YuriyTymchuk 4/6/2015 14:31",
-		"iconFor:at:" : "YuriyTymchuk 4/6/2015 12:48",
-		"iconMaxSize" : "YuriyTymchuk 3/17/2015 16:53",
-		"infoButtonFor:" : "YuriyTymchuk 4/6/2015 14:36",
-		"qualityChanged:" : "YuriyTymchuk 3/17/2015 15:46",
-		"registerTo:" : "YuriyTymchuk 3/17/2015 17:51",
-		"selected:" : "YuriyTymchuk 3/27/2015 16:26",
+		"display" : "YuriyTymchuk 4/16/2015 21:23",
+		"registerTo:" : "YuriyTymchuk 4/16/2015 14:57",
 		"selectionChanged:" : "YuriyTymchuk 3/17/2015 17:55",
-		"skipButtonFor:" : "YuriyTymchuk 4/15/2015 11:58",
-		"updateMorph" : "YuriyTymchuk 3/29/2015 11:13" } }
+		"updateMorph" : "YuriyTymchuk 4/16/2015 10:31" } }

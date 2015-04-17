@@ -7,4 +7,4 @@ validateEntity: anEntity
 	[
 		[ job run ] ensure: [  
 			inProgress := false ]
-	] forkAt: Processor userBackgroundPriority
+	] forkAt: Processor userBackgroundPriority named: 'Valigation Engine'
