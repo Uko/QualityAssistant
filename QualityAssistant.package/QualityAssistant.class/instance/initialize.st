@@ -2,6 +2,5 @@ initialization
 initialize
 
 	self unSubscribe.
-	settings := QAPackageSettings new.
-	validationEngine := QAValidationEngine new.
+	rules := RBCompositeLintRule allGoodRules.
 	self subscribe.

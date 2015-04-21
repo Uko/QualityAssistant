@@ -2,6 +2,8 @@ initialization
 initialize
 	super initialize.
 	
+	critics := #().
+	
 	self
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
@@ -13,6 +15,8 @@ initialize
 		color: Color transparent.
 		
 	self initializeList.
+	self initializeProgress.
+	self initializeUpdateTask.
 	
 	self
 		addMorphBack: listMorph;

@@ -1,6 +1,9 @@
 actions
 updateList
 
-	listMorph
-		updateItems;
-		deselectAll
+	entity ifNil: [ ^ self ].
+
+	self removeMorph: listMorph.
+	self addMorphFront: progressMorph.
+	
+	updateTask execute

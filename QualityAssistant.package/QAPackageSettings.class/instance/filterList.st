@@ -1,3 +1,0 @@
-accessing
-filterList
-	^ filterList asArray

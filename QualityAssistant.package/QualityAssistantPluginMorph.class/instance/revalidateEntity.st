@@ -1,4 +1,5 @@
 actions
 revalidateEntity
+
 	entity ifNotNil: [ 
-		QA revalidateEntity: entity ]
+		entity wipeCritics ]

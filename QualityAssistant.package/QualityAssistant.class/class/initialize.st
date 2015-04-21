@@ -1,4 +1,4 @@
 class initialization
 initialize
 	
-	Smalltalk at: #QA put: self new
+	Smalltalk at: #QA put: self uniqueInstance
