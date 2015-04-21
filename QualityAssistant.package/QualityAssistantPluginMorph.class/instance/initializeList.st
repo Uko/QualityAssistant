@@ -8,6 +8,7 @@ initializeList
 		hideHScrollBarIndefinitely: true;
 		vResizing: #spaceFill; 
 		hResizing: #spaceFill;
+		color: Smalltalk ui theme backgroundColor;
 		yourself.
 		
 	listMorph adapter
