@@ -8,6 +8,6 @@ initializeUpdateTask
 			listMorph
 				updateItems;
 				deselectAll.
-			self removeMorph: textMorph.
+			self removeMorph: progressMorph.
 			self addMorphFront: listMorph ];
 		yourself
