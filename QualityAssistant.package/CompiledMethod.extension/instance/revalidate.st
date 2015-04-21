@@ -4,6 +4,8 @@ revalidate
 	rule := RBCompositeLintRule allGoodRules.
 	critics := Set new.
 	
+	rule resetResult.
+	
 	[ rule checkMethod: self ] on: Error do: [ ].
 	rule leaves
 		select: [ :subRule | subRule critics notEmpty ]

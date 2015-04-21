@@ -15,7 +15,7 @@ displayCritic: aCritic
 		addMorph: aCritic title asStringMorph;
 		addMorphBack: (self infoButtonFor: aCritic).
 	
-	aCritic isAutofixable not
-		ifFalse: [ listItem addMorphBack: (self autofixButtonFor: aCritic) ].
+	aCritic isAutofixable ifTrue: [
+		listItem addMorphBack: (self autofixButtonFor: aCritic) ].
 	
 	^ listItem
