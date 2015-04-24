@@ -16,5 +16,7 @@ revalidate
 				at: (subRule result selectionIntervalFor: self definition)) ].
 			
 	self propertyValueAt: #critics put: critics.
+	
+	QALogger logRevalidatedEntity: self andGot: critics. 
 			
 	^ critics

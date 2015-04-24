@@ -1,0 +1,15 @@
+{
+	"category" : "QualityAssistant-Logging",
+	"classinstvars" : [
+		"stream",
+		"id" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QALogger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
