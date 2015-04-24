@@ -2,9 +2,10 @@ listLine-morph
 autofixButtonFor: aCritic
 	
 	^ IconicButton new
-				target: aCritic;
+				target: self;
 				labelGraphic: (Smalltalk ui icons iconNamed: #instrumentsIcon);
-				actionSelector: #fixAutomatically;
+				actionSelector: #fixAutomatically:;
+				arguments: { aCritic };
 				color: Color transparent;
 				helpText: 'Automatically resolve the issue';
 				extent: 16 @ 16;

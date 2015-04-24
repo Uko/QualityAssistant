@@ -3,11 +3,12 @@
 		 },
 	"instance" : {
 		"allowToSelect" : "YuriyTymchuk 4/16/2015 09:30",
-		"autofixButtonFor:" : "YuriyTymchuk 4/16/2015 14:35",
+		"autofixButtonFor:" : "YuriyTymchuk 4/24/2015 23:15",
 		"createButton" : "YuriyTymchuk 4/16/2015 14:34",
 		"displayCritic:" : "YuriyTymchuk 4/21/2015 22:19",
 		"entity" : "YuriyTymchuk 4/16/2015 21:22",
 		"entity:" : "YuriyTymchuk 4/21/2015 16:29",
+		"fixAutomatically:" : "YuriyTymchuk 4/25/2015 00:08",
 		"getCritics" : "YuriyTymchuk 4/24/2015 10:58",
 		"iconFor:at:" : "YuriyTymchuk 4/16/2015 09:30",
 		"iconMaxSize" : "YuriyTymchuk 4/16/2015 09:30",
