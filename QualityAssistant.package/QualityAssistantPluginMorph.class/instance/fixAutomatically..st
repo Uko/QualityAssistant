@@ -2,7 +2,7 @@ actions
 fixAutomatically: aQACritic 
 	
 	(DiffModel new
-		title: 'Apply these changes?';
+		title: 'Apply the proposed changes?';
 		showOptions: true;
 		extent: 800@600;
 		leftText: aQACritic target sourceCode;
