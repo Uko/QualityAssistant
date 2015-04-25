@@ -1,3 +1,3 @@
 announcement handling
 methodModified: anEvent 
-	self revalidateEntity: anEvent newMethod
+	self resetCriticCache: anEvent newMethod

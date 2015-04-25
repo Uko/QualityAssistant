@@ -1,10 +1,10 @@
 {
-	"category" : "QualityAssistant",
+	"category" : "QualityAssistant-RuleRouting",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "YuriyTymchuk 4/25/2015 10:08",
 	"instvars" : [
 		 ],
 	"name" : "QARuleSetup",

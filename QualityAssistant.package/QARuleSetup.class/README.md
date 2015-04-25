@@ -1,0 +1,1 @@
+My subclass should reside in a package to define which rules should be run on a package. (to be implemented)

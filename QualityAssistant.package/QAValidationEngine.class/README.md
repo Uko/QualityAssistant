@@ -1,1 +1,0 @@
-I validate entities in a separate thread with a small job notice 
