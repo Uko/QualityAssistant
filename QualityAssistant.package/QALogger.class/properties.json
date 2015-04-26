@@ -1,7 +1,6 @@
 {
 	"category" : "QualityAssistant-Logging",
 	"classinstvars" : [
-		"stream",
 		"id" ],
 	"classvars" : [
 		 ],

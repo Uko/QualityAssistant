@@ -1,10 +1,11 @@
 logging
 logForceRefreshed: anEntity
 
-	self logHeader.
-	self stream
-		<< self refreshkey;
-		<< self sepatator;
-		<< anEntity name;
-		lf.
-		
+	self logFile writeStreamDo: [ :str |
+		str setToEnd.
+		self logHeaderOn: str.
+		str
+			<< self refreshkey;
+			<< self sepatator;
+			<< anEntity name;
+			lf ]

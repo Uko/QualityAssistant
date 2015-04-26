@@ -1,8 +1,7 @@
 logging
-logHeader
+logHeaderOn: str
 
-	self stream
-		setToEnd;
+	str
 		<< self id;
 		<< self sepatator;
 		<< DateAndTime now asUnixMilli;
