@@ -1,16 +1,20 @@
 *qualityAssistant
 revalidate
 
-	| rules critics |
-	rules := self rules.
+	| rules critics manifest builder |
+	
+	builder := TheManifestBuilder new.
+	manifest := builder manifestOf: self.
+		
+	rules := RBCompositeLintRule allGoodRules leaves.
 	critics := Set new.
 	rules
-		do: [ :ruleClass | 
-			| rule |
-			rule := ruleClass new.
+		reject: [ :rule |
+			manifest isNotNil and:
+			[ builder skipsRule: rule for: self ] ]
+		thenDo: [ :rule |
 			rule resetResult.
 			[ rule checkClass: self ] on: Error do: [  ].
-			
 			rule critics ifNotEmpty: [
 				critics add: (QACritic
 					for: self

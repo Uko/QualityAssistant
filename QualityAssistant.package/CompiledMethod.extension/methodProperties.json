@@ -2,15 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addedRules" : "YuriyTymchuk 4/8/2015 11:55",
-		"critics" : "YuriyTymchuk 4/21/2015 17:27",
-		"gtInspectorCriticsIn:" : "YuriyTymchuk 3/30/2015 15:28",
-		"guidedSkip:" : "YuriyTymchuk 4/15/2015 12:06",
-		"hasCritics" : "YuriyTymchuk 10/21/2014 14:21",
-		"numberOfCritics" : "YuriyTymchuk 10/21/2014 14:22",
-		"revalidate" : "YuriyTymchuk 4/25/2015 10:20",
-		"rules" : "YuriyTymchuk 4/12/2015 23:08",
-		"skip:" : "YuriyTymchuk 4/25/2015 10:18",
-		"skippedRules" : "YuriyTymchuk 4/12/2015 23:08",
-		"spotterQACriticsFor:" : "YuriyTymchuk 3/30/2015 15:28",
-		"wipeCritics" : "YuriyTymchuk 4/21/2015 18:22" } }
+		"critics" : "Uko 4/25/2015 10:22:47",
+		"gtInspectorCriticsIn:" : "Uko 4/25/2015 10:22:47",
+		"guidedSkip:" : "Uko 4/25/2015 10:22:47",
+		"hasCritics" : "Uko 4/25/2015 10:22:47",
+		"numberOfCritics" : "Uko 4/25/2015 10:22:47",
+		"revalidate" : "YuriyTymchuk 4/27/2015 11:35",
+		"skip:" : "YuriyTymchuk 4/27/2015 11:22",
+		"spotterQACriticsFor:" : "Uko 4/25/2015 10:22:47",
+		"wipeCritics" : "Uko 4/25/2015 10:22:47" } }

@@ -1,10 +1,8 @@
 *qualityAssistant
 skip: aCritic
 
-	self class compile: (RBMethodNode selector: #skippedRules body: (
-		RBSequenceNode statements: {
-			RBReturnNode value: (
-				RBLiteralNode value: (
-					self skippedRules | {aCritic rule class name}) asArray) })) formattedCode.
-	
-	QA revalidateEntity: self.
+	(TheManifestBuilder of: self)
+		skipRule: aCritic rule for: self.
+		
+	self wipeCritics.
+	self methodsDo: #wipeCritics

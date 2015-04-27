@@ -1,4 +1,0 @@
-*qualityAssistant
-addedRules
-
-	^ Set new
