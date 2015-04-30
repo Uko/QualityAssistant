@@ -1,4 +1,4 @@
 properties
 isAutofixable
 
-	^ rule isTransformationRule
+	^ rule isTransformationRule 
