@@ -9,4 +9,6 @@ guidedSkip: aCritic
 		chooseFrom: (candidates collect: #name)
 		values: candidates
 		title: 'On which level do you want to skip the rule?')
-			ifNotNilDo: [ :entity | entity skip: aCritic ]
+			ifNotNilDo: [ :entity |
+				QALogger logSkippedCritic: aCritic of: self on: entity.
+				entity skip: aCritic ]
