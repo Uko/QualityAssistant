@@ -3,7 +3,7 @@ autofixButtonFor: aCritic
 	
 	^ IconicButton new
 				target: self;
-				labelGraphic: (Smalltalk ui icons iconNamed: #instrumentsIcon);
+				labelGraphic: (Smalltalk ui icons iconNamed: #toolsIcon);
 				actionSelector: #fixAutomatically:;
 				arguments: { aCritic };
 				color: Color transparent;
