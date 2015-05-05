@@ -20,7 +20,8 @@ revalidate
 				critics add: (QACritic
 					for: self
 					by: rule
-					at: (rule result selectionIntervalFor: self definition)) ] ].
+					at: (rule result selectionIntervalFor: self definition)) ].
+			Processor yield ].
 	
 	self propertyValueAt: #critics put: critics.
 	
