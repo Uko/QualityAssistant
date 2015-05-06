@@ -1,3 +1,3 @@
-private
+as yet unclassified
 takesKeyboardFocus
 	^ false 

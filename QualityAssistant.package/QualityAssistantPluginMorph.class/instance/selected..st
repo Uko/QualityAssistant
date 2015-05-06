@@ -4,5 +4,4 @@ selected: index
 	[ pluginDelegate isNil ]) ifTrue: [ ^ self ].
 	
 	
-	(listMorph rawItemAtIndex: index) ifNotNilDo: [ :critic |
-		pluginDelegate criticSelected: critic ]
+	pluginDelegate criticSelected: (critics at: index)

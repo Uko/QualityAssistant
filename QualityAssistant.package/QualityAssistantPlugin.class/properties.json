@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 3/17/2015 17:33",
 	"instvars" : [
-		"morph" ],
+		"morph",
+		"changeHandler" ],
 	"name" : "QualityAssistantPlugin",
 	"pools" : [
 		 ],

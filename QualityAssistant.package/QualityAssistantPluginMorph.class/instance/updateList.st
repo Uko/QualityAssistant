@@ -1,11 +1,6 @@
 actions
 updateList
 
-	entity ifNil: [ ^ self ].
-
-	[  
-		self removeMorph: listMorph.
-		self addMorphFront: progressMorph
-	] fork.
-	
+	self removeMorph: listMorph.
+	self addMorphFront: progressMorph.
 	updateTask execute

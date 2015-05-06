@@ -6,7 +6,8 @@ createButton
 		labelGraphic: (Smalltalk ui icons iconNamed: #refreshIcon);
 		actionSelector: #revalidateEntity;
 		color: Color transparent;
-		extent: 23 @ 58;
+		width: 21;
+		vResizing: #spaceFill; 
 		helpText: 'Revalidate the entity';
 		borderWidth: 0;
 		yourself

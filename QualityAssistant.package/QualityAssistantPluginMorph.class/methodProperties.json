@@ -4,7 +4,7 @@
 	"instance" : {
 		"allowToSelect" : "YuriyTymchuk 4/16/2015 09:30",
 		"autofixButtonFor:" : "YuriyTymchuk 5/5/2015 17:55",
-		"createButton" : "YuriyTymchuk 5/1/2015 12:11",
+		"createButton" : "YuriyTymchuk 5/6/2015 17:25",
 		"displayCritic:" : "YuriyTymchuk 5/5/2015 17:59",
 		"entity" : "YuriyTymchuk 4/16/2015 21:22",
 		"entity:" : "YuriyTymchuk 4/21/2015 16:29",
@@ -13,14 +13,14 @@
 		"iconFor:at:" : "YuriyTymchuk 4/16/2015 09:30",
 		"iconMaxSize" : "YuriyTymchuk 4/16/2015 09:30",
 		"infoButtonFor:" : "YuriyTymchuk 4/16/2015 10:35",
-		"initialize" : "YuriyTymchuk 5/1/2015 12:07",
-		"initializeList" : "YuriyTymchuk 4/21/2015 20:14",
+		"initialize" : "YuriyTymchuk 5/6/2015 17:31",
+		"initializeList" : "YuriyTymchuk 5/6/2015 18:09",
 		"initializeProgress" : "YuriyTymchuk 4/21/2015 23:32",
-		"initializeUpdateTask" : "YuriyTymchuk 4/21/2015 19:50",
+		"initializeUpdateTask" : "YuriyTymchuk 5/6/2015 17:49",
 		"pluginDelegate" : "YuriyTymchuk 4/16/2015 21:22",
 		"pluginDelegate:" : "YuriyTymchuk 4/16/2015 21:22",
 		"qualityChanged:" : "YuriyTymchuk 4/16/2015 14:55",
 		"revalidateEntity" : "YuriyTymchuk 4/21/2015 18:23",
-		"selected:" : "YuriyTymchuk 4/16/2015 19:26",
+		"selected:" : "YuriyTymchuk 5/6/2015 15:42",
 		"skipButtonFor:" : "Uko 4/25/2015 10:22:47",
-		"updateList" : "YuriyTymchuk 5/5/2015 14:43" } }
+		"updateList" : "YuriyTymchuk 5/6/2015 17:50" } }
