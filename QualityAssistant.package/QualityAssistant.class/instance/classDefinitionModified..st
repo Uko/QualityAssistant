@@ -1,3 +1,3 @@
 announcement handling
 classDefinitionModified: anEvent 
-	self resetCriticCache: anEvent newClassDefinition
+	self resetCriticCache: anEvent oldClassDefinition
