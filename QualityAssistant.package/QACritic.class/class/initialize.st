@@ -3,5 +3,5 @@ initialize
 
 	iconSeverityDict := { 
 		#information -> #smallInfoIcon .
-		#warning     -> #warningIcon   .
+		#warning     -> #smallWarningIcon   .
 		#error       -> #smallErrorIcon } asDictionary 
