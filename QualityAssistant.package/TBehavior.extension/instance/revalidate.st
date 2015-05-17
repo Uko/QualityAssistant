@@ -6,7 +6,7 @@ revalidate
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules := RBCompositeLintRule allGoodRules leaves.
+	rules := QualityAssistant uniqueInstance rules.
 	critics := Set new.
 	rules
 		reject: [ :rule |
