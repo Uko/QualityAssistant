@@ -23,4 +23,4 @@ initialize
 		addMorphBack: self createButton.
 		
 	SystemAnnouncer uniqueInstance weak
-		on: QualityChanged send: #qualityChanged: to: self
+		on: ReQualityChanged send: #qualityChanged: to: self

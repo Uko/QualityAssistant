@@ -1,1 +1,0 @@
-HI, I validate your methods and classes with Smalllint rules and notify you when their quality changes.
