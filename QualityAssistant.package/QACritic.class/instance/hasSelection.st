@@ -1,4 +1,0 @@
-properties
-hasSelection
-
-	^ selection isNotNil 

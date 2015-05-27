@@ -1,7 +1,7 @@
 initialization
 initializeProgress
 
-	progressMorph := Morph new
+	progressMorph := BorderedMorph new
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		wrapCentering: #center;

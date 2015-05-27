@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"defaultPosition" : "Uko 4/30/2015 10:21:22",
-		"install" : "Uko 4/30/2015 10:21:22",
-		"pluginName" : "Uko 4/30/2015 10:21:22",
-		"possiblePositions" : "Uko 4/30/2015 10:21:22",
-		"uninstall" : "Uko 4/30/2015 10:21:22" },
+		"defaultPosition" : "Uko 5/24/2015 23:46:14",
+		"install" : "Uko 5/24/2015 23:46:14",
+		"pluginName" : "Uko 5/24/2015 23:46:14",
+		"possiblePositions" : "Uko 5/24/2015 23:46:14",
+		"uninstall" : "Uko 5/24/2015 23:46:14" },
 	"instance" : {
-		"criticSelected:" : "YuriyTymchuk 5/6/2015 17:30",
-		"currentEntity" : "YuriyTymchuk 5/6/2015 17:54",
-		"display" : "YuriyTymchuk 5/6/2015 17:36",
-		"initialize" : "YuriyTymchuk 5/6/2015 19:20",
-		"registerTo:" : "Uko 4/30/2015 10:21:22",
-		"selectionChanged:" : "YuriyTymchuk 5/6/2015 18:48",
-		"updateMorph" : "YuriyTymchuk 5/6/2015 17:38" } }
+		"criticSelected:" : "Uko 5/24/2015 23:46:14",
+		"currentEntity" : "Uko 5/24/2015 23:46:14",
+		"display" : "Uko 5/24/2015 23:46:14",
+		"initialize" : "Uko 5/24/2015 23:46:14",
+		"registerTo:" : "Uko 5/24/2015 23:46:14",
+		"selectionChanged:" : "Uko 5/24/2015 23:46:14",
+		"updateMorph" : "Uko 5/24/2015 23:46:14" } }
