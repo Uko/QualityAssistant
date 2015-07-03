@@ -19,5 +19,6 @@ displayCritic: aCritic
 		ifTrue: [ listItem addMorphBack: (self autofixButtonFor: aCritic) ].
 		
 	listItem addMorphBack: (self skipButtonFor: aCritic).
+	listItem addMorphBack: (self uselessButtonFor: aCritic).
 	
 	^ listItem
