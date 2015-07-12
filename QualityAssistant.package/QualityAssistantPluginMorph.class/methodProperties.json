@@ -6,7 +6,7 @@
 		"allowToSelect" : "Uko 5/24/2015 23:46:14",
 		"autofixButtonFor:" : "Uko 5/24/2015 23:46:14",
 		"createButton" : "Uko 5/24/2015 23:46:14",
-		"displayCritic:" : "Uko 5/24/2015 23:46:14",
+		"displayCritic:" : "YuriyTymchuk 7/2/2015 12:20",
 		"entity" : "Uko 5/24/2015 23:46:14",
 		"entity:" : "Uko 5/24/2015 23:46:14",
 		"fixAutomatically:" : "Uko 5/24/2015 23:46:14",
@@ -21,7 +21,9 @@
 		"pluginDelegate" : "Uko 5/24/2015 23:46:14",
 		"pluginDelegate:" : "Uko 5/24/2015 23:46:14",
 		"qualityChanged:" : "Uko 5/24/2015 23:46:14",
+		"reportUseless:andRemove:" : "YuriyTymchuk 7/7/2015 18:04",
 		"revalidateEntity" : "Uko 5/24/2015 23:46:14",
 		"selected:" : "Uko 5/24/2015 23:46:14",
 		"skipButtonFor:" : "Uko 5/24/2015 23:46:14",
-		"updateList" : "Uko 5/24/2015 23:46:14" } }
+		"updateList" : "Uko 5/24/2015 23:46:14",
+		"uselessButtonFor:" : "YuriyTymchuk 7/7/2015 17:56" } }
