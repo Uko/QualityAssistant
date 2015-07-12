@@ -65,7 +65,11 @@ There are 3 severity levels of critics that are displayed at the left side of th
 ![repair icon](graphics/readmeImages/repairIcon.png) **Autofix**. Some critics provide a solution to the issue reported by them. By pressing "autofix" button you will open a diff preview of the changes that will happen if you apply the proposed issue resolution. Don't forget that you can press the 'Pretty print' button to make comparison easier.
 ![](graphics/readmeImages/autofixPrompt.png)
 
-![](graphics/readmeImages/uselessButton.png). By pressing this button you will send us a very important message: that this critic is useless for you in some particular case. We will use this data to understand which quality rules should be improved in the first place.
+![](graphics/readmeImages/uselessButton.png) **"Useless"**. By pressing this button you will send us a very important message: that this critic is useless for you in some particular case. We will use this data to understand which quality rules should be improved in the first place.
+
+![eclipse small cancel icon](graphics/readmeImages/refreshIconEcl.png)
+![   idea small cancel icon](graphics/readmeImages/refreshIconIde.png)
+**Refresh**. Refreshes the critics of the current class or method. Sometomes QualityAssistant fails to refresh critics automatically (if they rely on a different entity that was recently changed).
 
 In Inspector
 ------------
