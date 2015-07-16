@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistant",
+	"classinstvars" : [
+		"reportWithoutAsking" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/15/2015 17:48",
+	"instvars" : [
+		 ],
+	"name" : "QualityAssistantSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
