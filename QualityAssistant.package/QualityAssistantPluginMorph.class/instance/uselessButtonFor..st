@@ -4,7 +4,7 @@ uselessButtonFor: aCritic
 	button := IconicButton new.
 	button
 		target: self;
-		actionSelector: #reportUseless:andRemove:;
+		actionSelector: #guardedReportUseless:andRemove:;
 		arguments:
 				{
 				aCritic.

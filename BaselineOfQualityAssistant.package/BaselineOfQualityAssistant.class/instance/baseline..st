@@ -7,4 +7,4 @@ baseline: spec
 			spec
 				package: 'QualityAssistant' with: [ spec requires: 'Renraku' ];
 				postLoadDoIt: #installPlugin.
-			spec baseline: 'Renraku' with: [ spec repository: 'github://Uko/Renraku:v0.3.1' ] ]
+			spec baseline: 'Renraku' with: [ spec repository: 'github://Uko/Renraku:v0.3.2' ] ]
