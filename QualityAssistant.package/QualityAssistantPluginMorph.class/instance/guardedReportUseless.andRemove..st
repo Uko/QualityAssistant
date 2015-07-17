@@ -7,6 +7,7 @@ guardedReportUseless: aReCritic andRemove: anIconicButton
 			andRemove: anIconicButton ].
 		
 	((GLMFormBrick new
+		color: Smalltalk ui theme textColor negated;
 		width: 350;
 		vShrinkWrap;
 		label: [ :header | header
