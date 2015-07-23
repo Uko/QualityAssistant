@@ -14,6 +14,7 @@ Hi, I'm your personal quality assistant. I run SmallLint rules on the code that 
 
 Installation
 ------------
+:exclamation: QualityAssistant comes pre-installed with **Pharo5**
 
 The easiest way to install is to use **Configuration Browser**. Otherwise you can execute the following script.
 
@@ -27,7 +28,6 @@ Metacello new
 
 In Nautilus
 -----
-
 Quality Assistant uses Nautilus plugin to notify users about the critics in their code. The plugin is automatically activated and will be available in all browsers **opened after** loading Quality Assistant. By default the plugin is positioned at the bottom of Nautilus browser, and will display a list of critics for a selected class or method.
 
 ![nautilus demo](graphics/readmeImages/nautilusDemo.png)
