@@ -1,4 +1,0 @@
-keywords
-revalidatekey
-
-	^ 'revalidated'

@@ -1,4 +1,4 @@
-logging
+*qualityAssistant-logging
 logSeenCritics: aCritics of: anEntity
 
 	self logFile writeStreamDo: [ :str |
@@ -6,9 +6,9 @@ logSeenCritics: aCritics of: anEntity
 		self logHeaderOn: str.
 		str
 			<< self seenkey;
-			<< self sepatator;
+			<< self separator;
 			<< anEntity name;
-			<< self sepatator.
+			<< self separator.
 		
 		self logCriticsList: aCritics on: str.
 		

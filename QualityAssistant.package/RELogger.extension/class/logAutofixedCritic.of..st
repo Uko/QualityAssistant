@@ -1,13 +1,13 @@
-logging
-logViewedDiffForCritic: aCritic of: anEntity
+*qualityAssistant-logging
+logAutofixedCritic: aCritic of: anEntity
 
 	self logFile writeStreamDo: [ :str |
 		str setToEnd.
 		self logHeaderOn: str.
 		str
-			<< self diffkey;
-			<< self sepatator;
+			<< self autokey;
+			<< self separator;
 			<< anEntity name;
-			<< self sepatator;
+			<< self separator;
 			<< aCritic rule class name;
 			lf ]

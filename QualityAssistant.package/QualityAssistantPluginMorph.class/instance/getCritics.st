@@ -1,5 +1,5 @@
 list-morph
 getCritics
 
-	critics ifNotEmpty: [ QALogger logSeenCritics: critics of: entity ].
+	critics ifNotEmpty: [ RELogger logSeenCritics: critics of: entity ].
 	^ critics

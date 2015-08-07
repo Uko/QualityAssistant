@@ -2,5 +2,5 @@ actions
 revalidateEntity
 
 	entity ifNotNil: [ 
-		QALogger logForceRefreshed: entity.
+		RELogger logForceRefreshed: entity.
 		entity wipeCritics ]

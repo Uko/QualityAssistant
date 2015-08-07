@@ -1,7 +1,7 @@
 actions
 fixAutomatically: aQACritic 
 	
-	QALogger logViewedDiffForCritic: aQACritic of: entity.
+	RELogger logViewedDiffForCritic: aQACritic of: entity.
 	
 	(DiffModel new
 		title: 'Apply the proposed changes?';

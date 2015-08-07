@@ -1,0 +1,4 @@
+*qualityAssistant-keywords
+seenkey
+
+	^ 'critseen'

@@ -1,4 +1,4 @@
-logging
+*qualityAssistant-logging
 logSkippedCritic: aCritic of: anEntity on: aLevelEntity
 
 	self logFile writeStreamDo: [ :str |
@@ -6,10 +6,10 @@ logSkippedCritic: aCritic of: anEntity on: aLevelEntity
 		self logHeaderOn: str.
 		str
 			<< self skipkey;
-			<< self sepatator;
+			<< self separator;
 			<< anEntity name;
-			<< self sepatator;
+			<< self separator;
 			<< aCritic rule class name;
-			<< self sepatator;
+			<< self separator;
 			<< aLevelEntity name;
 			lf ]

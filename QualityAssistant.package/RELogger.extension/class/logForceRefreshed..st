@@ -1,4 +1,4 @@
-logging
+*qualityAssistant-logging
 logForceRefreshed: anEntity
 
 	self logFile writeStreamDo: [ :str |
@@ -6,6 +6,6 @@ logForceRefreshed: anEntity
 		self logHeaderOn: str.
 		str
 			<< self refreshkey;
-			<< self sepatator;
+			<< self separator;
 			<< anEntity name;
 			lf ]
