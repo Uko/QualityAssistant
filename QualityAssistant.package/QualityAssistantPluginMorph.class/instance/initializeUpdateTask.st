@@ -6,7 +6,7 @@ initializeUpdateTask
 			critics := entity
 				ifNil: [ #() ]
 				ifNotNil: [
-					entity cachedCritics asArray sort: [ :a :b | a title < b title ] ] ];
+					entity critics asArray sort: [ :a :b | a title < b title ] ] ];
 		onCompleted: [
 			listMorph
 				updateList;
