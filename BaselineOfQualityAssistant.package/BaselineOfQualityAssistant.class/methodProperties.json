@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseline:" : "YuriyTymchuk 8/21/2015 19:05",
-		"installPlugin" : "YuriyTymchuk 8/21/2015 12:11" } }
+		"baseline:" : "YuriyTymchuk 8/21/2015 19:54",
+		"installPlugin" : "YuriyTymchuk 8/21/2015 12:11",
+		"unstallObsoletePlugin" : "YuriyTymchuk 8/21/2015 19:53" } }
