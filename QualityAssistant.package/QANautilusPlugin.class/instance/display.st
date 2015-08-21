@@ -1,7 +1,7 @@
 display
 display
 
-   morph := QualityAssistantPluginMorph new.
+   morph := QANautilusPluginMorph new.
 	morph pluginDelegate: self.
 	
 	self updateMorph.

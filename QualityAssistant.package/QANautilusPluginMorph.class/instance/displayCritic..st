@@ -27,6 +27,6 @@ displayCritic: aCritic
 		height: 5;
 		yourself).
 	
-	listItem addMorphBack: (self uselessButtonFor: aCritic).
+	listItem addMorphBack: (QAFeedbackMorph new critic: aCritic).
 	
 	^ listItem

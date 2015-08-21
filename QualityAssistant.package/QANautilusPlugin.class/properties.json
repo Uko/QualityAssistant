@@ -8,7 +8,7 @@
 	"instvars" : [
 		"morph",
 		"changeHandler" ],
-	"name" : "QualityAssistantPlugin",
+	"name" : "QANautilusPlugin",
 	"pools" : [
 		 ],
 	"super" : "AbstractNautilusPlugin",
