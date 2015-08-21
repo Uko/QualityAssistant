@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"critic" : "YuriyTymchuk 8/21/2015 12:14",
+		"critic:" : "YuriyTymchuk 8/21/2015 12:14",
+		"finalizeFeedback:withComment:" : "YuriyTymchuk 8/21/2015 14:25",
+		"fireDialogWithFeedback:" : "YuriyTymchuk 8/21/2015 16:39",
+		"initialize" : "YuriyTymchuk 8/21/2015 13:11",
+		"initializeNegativeFeedback" : "YuriyTymchuk 8/21/2015 13:52",
+		"initializePositiveFeedback" : "YuriyTymchuk 8/21/2015 13:59" } }

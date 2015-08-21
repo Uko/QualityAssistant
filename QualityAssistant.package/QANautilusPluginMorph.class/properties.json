@@ -12,7 +12,7 @@
 		"pluginDelegate",
 		"updateTask",
 		"critics" ],
-	"name" : "QualityAssistantPluginMorph",
+	"name" : "QANautilusPluginMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",
