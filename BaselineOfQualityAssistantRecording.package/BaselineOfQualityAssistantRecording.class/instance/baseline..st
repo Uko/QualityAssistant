@@ -9,5 +9,5 @@ baseline: spec
 			spec project: 'QualityAssistant' with: [
   				spec
     					className: 'ConfigurationOfQualityAssistant';
-    					version: #stable;
+    					version: #development;
     					repository: 'http://smalltalkhub.com/mc/YuriyTymchuk/Configuration/main' ] ]
