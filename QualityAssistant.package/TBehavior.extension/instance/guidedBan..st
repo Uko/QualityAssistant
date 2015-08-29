@@ -1,4 +1,4 @@
 *qualityAssistant
-guidedSkip: aCritic
+guidedBan: aCritic
 
 	self ban: aCritic.

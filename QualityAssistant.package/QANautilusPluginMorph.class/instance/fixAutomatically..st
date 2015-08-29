@@ -1,5 +1,7 @@
 actions
 fixAutomatically: aQACritic 
+
+	ReEngine uniqueInstance notifyViewedDiffFor: aQACritic.
 	
 	(DiffModel new
 		title: 'Apply the proposed changes?';

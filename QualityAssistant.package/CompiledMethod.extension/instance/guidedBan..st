@@ -1,7 +1,9 @@
 *qualityAssistant
-guidedSkip: aCritic
+guidedBan: aCritic
 
 	| candidates |
+	
+	ReEngine uniqueInstance notifyBanInitiatedFor: aCritic.
 	
 	candidates := { self . self methodClass }.
 	
@@ -9,4 +11,4 @@ guidedSkip: aCritic
 		chooseFrom: (candidates collect: #name)
 		values: candidates
 		title: 'On which level do you want to ban the rule?')
-			ifNotNilDo: [ :entity | entity skip: aCritic ]
+			ifNotNil: [ :entity | entity ban: aCritic ]
