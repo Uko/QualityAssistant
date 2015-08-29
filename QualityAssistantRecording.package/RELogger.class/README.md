@@ -1,0 +1,1 @@
+I am a "singleton" class used for logging Renraku and QualityAssistant stuff.

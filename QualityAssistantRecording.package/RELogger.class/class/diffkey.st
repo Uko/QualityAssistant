@@ -1,0 +1,4 @@
+keywords
+diffkey
+
+	^ 'viewdiff'

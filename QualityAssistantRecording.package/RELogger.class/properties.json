@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistantRecording",
+	"classinstvars" : [
+		"id" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/7/2015 08:03",
+	"instvars" : [
+		 ],
+	"name" : "RELogger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

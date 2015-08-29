@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"autokey" : "Uko 4/30/2015 10:21:22",
+		"criticizedkey" : "YuriyTymchuk 8/29/2015 22:53",
+		"diffkey" : "Uko 4/30/2015 10:21:22",
+		"id" : "Uko 4/30/2015 10:21:22",
+		"initbankey" : "YuriyTymchuk 8/29/2015 22:58",
+		"initialize" : "YuriyTymchuk 8/29/2015 23:07",
+		"logAutofixed:" : "YuriyTymchuk 8/29/2015 22:52",
+		"logBannedCritic:" : "YuriyTymchuk 8/29/2015 22:55",
+		"logCriticized:" : "YuriyTymchuk 8/29/2015 22:53",
+		"logCriticsList:on:" : "Uko 4/30/2015 10:21:22",
+		"logFile" : "Uko 4/30/2015 10:21:22",
+		"logHeaderOn:" : "YuriyTymchuk 8/29/2015 23:15",
+		"logInitiatedBan:" : "YuriyTymchuk 8/29/2015 23:51",
+		"logRevalidatedEntity:" : "YuriyTymchuk 8/29/2015 22:50",
+		"logSeenCritics:" : "YuriyTymchuk 8/29/2015 22:51",
+		"logSkippedCritic:" : "YuriyTymchuk 8/29/2015 22:50",
+		"logViewedDiff:" : "YuriyTymchuk 8/29/2015 22:48",
+		"refreshkey" : "Uko 4/30/2015 10:21:22",
+		"revalidatekey" : "Uko 4/30/2015 10:21:22",
+		"seenkey" : "Uko 4/30/2015 10:21:22",
+		"separator" : "YuriyTymchuk 8/7/2015 08:15",
+		"skipkey" : "YuriyTymchuk 4/30/2015 10:28" },
+	"instance" : {
+		 } }
