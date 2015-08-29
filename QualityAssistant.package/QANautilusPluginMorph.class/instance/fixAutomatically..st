@@ -1,7 +1,7 @@
 actions
 fixAutomatically: aQACritic 
 
-	ReEngine uniqueInstance notifyViewedDiffFor: aQACritic.
+	ReEngine uniqueInstance notifyViewedDiffFor: aQACritic of: entity.
 	
 	(DiffModel new
 		title: 'Apply the proposed changes?';
