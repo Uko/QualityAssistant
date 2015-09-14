@@ -23,6 +23,7 @@ Metacello new
   smalltalkhubUser: 'Pharo'
   project: 'MetaRepoForPharo40';
   configuration: 'QualityAssistant';
+  get;
   load
 ```
 
