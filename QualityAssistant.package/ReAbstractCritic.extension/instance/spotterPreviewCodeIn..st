@@ -1,7 +1,7 @@
 *qualityAssistant
 spotterPreviewCodeIn: aComposite
 	<spotterPreview: 10>
-	aComposite pharoMethod 
+	aComposite pharoMethod
 		title: [ self title ];
 		display: [ target definition ];
 		smalltalkClass: [ target isClass

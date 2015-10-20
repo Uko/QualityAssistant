@@ -1,6 +1,6 @@
 interaction delegation
 criticSelected: aCritic
-	aCritic hasSelection ifTrue: [ 
+	aCritic providesSelection ifTrue: [ 
 		self model codeTextMorph
 			setSelection: aCritic selection;
 			takeKeyboardFocus ]

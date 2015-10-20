@@ -2,6 +2,6 @@
 gtInspectorDescriptionIn: composite
 	<gtInspectorPresentationOrder: 1>
 
-	^ composite text 
+	^ composite text
 		title: 'Description';
 		display: [ self description ]

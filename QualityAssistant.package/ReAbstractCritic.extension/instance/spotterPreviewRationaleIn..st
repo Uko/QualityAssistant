@@ -1,7 +1,7 @@
 *qualityAssistant
 spotterPreviewRationaleIn: aComposite
 	<spotterPreview: 5>
-	aComposite text 
+	aComposite text
 		title: [ self title ];
 		display: [ self description ];
 		entity: self
