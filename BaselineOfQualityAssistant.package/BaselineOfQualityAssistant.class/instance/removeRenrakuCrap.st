@@ -1,7 +1,6 @@
 pre-post-load-do-its
 removeRenrakuCrap
-
-	#QualityAssistant asPackage extensionMethods
-		select: [ :m | m classBinding key == #ReCritic ]
-		thenDo: #removeFromSystem.
+    
+  #ReCritic asClassIfPresent: [ :class | class removeProtocol: '*qualityAssistant' ].
+    
 	#QualityAssistant asPackage mcWorkingCopy modified: false
