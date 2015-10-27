@@ -1,5 +1,5 @@
 pre-post-load-do-its
-unstallObsoletePlugin
+uninstallObsoletePlugin
 
 	#'QualityAssistantPlugin' asClassIfPresent: [ :pluginClass |
 		pluginClass uninstall ]

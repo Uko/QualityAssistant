@@ -1,5 +1,5 @@
 pre-post-load-do-its
 preLoadDoIt
 
-	self unstallObsoletePlugin.
+	self uninstallObsoletePlugin.
 	self removeRenrakuCrap
