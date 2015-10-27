@@ -5,7 +5,7 @@ baseline: spec
 		for: #common
 		do: [ 
 			spec
-				preLoadDoIt: #unstallObsoletePlugin;
+				preLoadDoIt: #preLoadDoIt;
 				package: 'QualityAssistant' with: [ spec requires: 'Renraku' ];
 				postLoadDoIt: #installPlugin.
 			spec project: 'Renraku' with: [

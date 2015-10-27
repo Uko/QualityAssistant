@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseline:" : "YuriyTymchuk 10/20/2015 11:46",
+		"baseline:" : "YuriyTymchuk 10/27/2015 09:14",
 		"installPlugin" : "YuriyTymchuk 8/21/2015 12:11",
+		"preLoadDoIt" : "YuriyTymchuk 10/27/2015 09:15",
+		"removeRenrakuCrap" : "YuriyTymchuk 10/27/2015 09:21",
 		"unstallObsoletePlugin" : "YuriyTymchuk 8/21/2015 19:53" } }
