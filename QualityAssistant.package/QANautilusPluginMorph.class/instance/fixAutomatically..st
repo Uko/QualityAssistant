@@ -12,6 +12,8 @@ fixAutomatically: aQACritic
 		text: change diffedText;
 		disable;
 		openDialogWithSpec)
-			okAction: [ change execute ];
+			okAction: [
+				ReEngine uniqueInstance notifyCritic: aQACritic AutoFixedFor: entity.
+				change execute ];
 			centered;
 			modalRelativeTo: self window
