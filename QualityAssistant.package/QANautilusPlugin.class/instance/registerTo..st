@@ -1,7 +1,7 @@
 registration
 registerTo: aModel
 
-	aModel announcer
+	aModel announcer weak
 		when: NautilusPackageSelected  send: #otherSelected:  to: self;
  		when: NautilusClassSelected    send: #classSelected:  to: self; 
 		when: NautilusProtocolSelected send: #otherSelected:  to: self; 	 
