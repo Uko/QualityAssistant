@@ -8,5 +8,5 @@ gtInspectorSourceCodeIn: composite
 		smalltalkClass: [
 			target isCompiledMethod ifTrue: [ target methodClass ] ];
 		initialize: [ :presentation |
-			presentation selectionInterval: selection ];
+			self providesSelection ifTrue: [ presentation selectionInterval: self selection ] ];
 		act: [ target browse ] icon: GLMUIThemeExtraIcons glamorousBrowse entitled: 'Browse'
