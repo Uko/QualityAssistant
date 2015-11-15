@@ -34,7 +34,8 @@ Quality Assistant uses Nautilus plugin to notify users about the critics in thei
 ![nautilus demo](graphics/readmeImages/nautilusDemo.png)
 
 ###Critics Details
-Clicking on the critic text will highlight the part of problematic code (if possible).
+
+If possible, the critic text will be prefixed with the _name_ of the faulty part (variable, message, method, etc…). These prefixes as well as **source code highlights** are **not implemented** for many critics, although it is possible to do it. If you will find such a case, please report it here: https://github.com/Uko/Renraku/issues.
 
 ####Severity levels
 There are 3 severity levels of critics that are displayed at the left side of the list:
@@ -63,8 +64,12 @@ There are 3 severity levels of critics that are displayed at the left side of th
 ![   idea small cancel icon](graphics/readmeImages/cnclIconIde.png)
 **Ban**. Allows you to ban the validation of the current class or method by the rule of the critic. I.e. the critic will not be reported any more. When banning a critic for a method, you can decide to ban it on the class level, so the policy will apply to all the methods of a class. _This functionality is implemented on top of Manifest false positives_.
 
-![repair icon](graphics/readmeImages/repairIcon.png) **Autofix**. Some critics provide a solution to the issue reported by them. By pressing "autofix" button you will open a diff preview of the changes that will happen if you apply the proposed issue resolution. Don't forget that you can press the 'Pretty print' button to make comparison easier.
+![repair icon](graphics/readmeImages/repairIcon.png) **Autofix**. Some critics provide a solution to the issue reported by them. By pressing "autofix" button you will open a diff preview of the changes that will happen if you apply the proposed issue resolution. However, **previewing changes** (i.e. before-after diff) is **not** as **nice** as it was. Sorry for inconveniences, I hope that we will have a solution for this in the future.
 ![](graphics/readmeImages/autofixPrompt.png)
+
+
+_:exclamation: Now the plugins in Inspector and Spotter can be toggled in **settings** (QualityAssistant group) and are **disabled** by default._
+![inspector demo](graphics/readmeImages/settingsDemo.png)
 
 In Inspector
 ------------
