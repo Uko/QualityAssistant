@@ -1,5 +1,6 @@
 {
 	"class" : {
-		"initialize" : "YuriyTymchuk 11/3/2015 15:07" },
+		"initialize" : "Uko 11/4/2015 15:23:41" },
 	"instance" : {
-		"recordAnnouncement:" : "YuriyTymchuk 11/3/2015 15:02" } }
+		"initialize" : "YuriyTymchuk 11/17/2015 17:17",
+		"recordAnnouncement:" : "Uko 11/4/2015 15:23:41" } }
