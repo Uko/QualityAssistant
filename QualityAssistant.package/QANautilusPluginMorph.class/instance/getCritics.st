@@ -1,7 +1,7 @@
 list-morph
 getCritics
 
-	entity ifNotNil: [ ReEngine uniqueInstance
+	entity ifNotNil: [ ReSystemAnnouncer uniqueInstance
 								notifyCriticsSeen: critics
 								of: entity ].
 	^ critics
