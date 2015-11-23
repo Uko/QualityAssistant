@@ -1,0 +1,4 @@
+data
+removedExtendedCLasses
+
+	^ #(ReCritic ReEngine)
