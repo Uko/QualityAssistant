@@ -7,8 +7,8 @@ removeRenrakuCrap
 	
 	self removedExtendedCLasses do: [ :className |
 		className asClassIfPresent: [ :class |
-			class methods
-    			select: [ :meth | meth package = qaPackage ]
-    			thenDo: #removeFromSystem ] ].
+			class protocols
+    			select: [ :prot | prot asLowercase beginsWith: qaPackage methodCategoryPrefix ]
+    			thenDo: [ :prot | class removeProtocol: prot ] ] ].
     
 	qaPackage mcWorkingCopy modified: false
