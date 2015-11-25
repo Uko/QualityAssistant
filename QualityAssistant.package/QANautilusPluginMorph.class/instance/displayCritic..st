@@ -12,14 +12,19 @@ displayCritic: aCritic
 		layoutInset: (Margin left: 0 top: 0 right: 10 bottom: 0);
 		yourself.
 	
-	listItem
-		addMorph: aCritic title asStringMorph;
-		addMorphBack: (self infoButtonFor: aCritic).
+	listItem addMorph: aCritic title asStringMorph.
 	
-	aCritic providesChange
-		ifTrue: [ listItem addMorphBack: (self autofixButtonFor: aCritic) ].
-		
-	listItem addMorphBack: (self skipButtonFor: aCritic).
+	aCritic actions do: [ :action | listItem addMorphBack: (
+		IconicButton new
+			target: action;
+			labelGraphic: action icon;
+			actionSelector: #actOn:;
+			arguments: { aCritic };
+			color: Color transparent;
+			helpText: action description;
+			extent: 16 @ 16;
+			borderWidth: 0;
+			yourself) ].
 	
 	listItem addMorphBack: (Morph new
 		color: Color transparent;
@@ -27,6 +32,7 @@ displayCritic: aCritic
 		height: 5;
 		yourself).
 	
-	listItem addMorphBack: (QAFeedbackMorph new critic: aCritic).
+	aCritic supportsFeedBack ifTrue: [
+		listItem addMorphBack: (QAFeedbackMorph new critic: aCritic) ].
 	
 	^ listItem

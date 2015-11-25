@@ -1,0 +1,3 @@
+*qualityAssistant
+supportsFeedBack
+	^ true

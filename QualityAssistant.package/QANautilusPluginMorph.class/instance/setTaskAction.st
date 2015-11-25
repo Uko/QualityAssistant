@@ -6,5 +6,5 @@ setTaskAction
 			critics := entity
 				ifNil: [ #() ]
 				ifNotNil: [
-					entity critics asArray sort: [ :a :b | a title < b title ] ] ];
+					entity qaReportables asArray sort: [ :a :b | a title < b title ] ] ];
 		onCompleted: [ self taskCompleted ]
