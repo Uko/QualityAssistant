@@ -4,4 +4,4 @@ icon - a Form that will appear on the button (green square by default)
 
 description - the description that will be present on popup on hower
 
-action - a one parameter block that is evaluated with the critic when the button is pressed
+action - a two (ortional) parameter block that is evaluated with the critic and the current code entity (class, method…) when the button is pressed

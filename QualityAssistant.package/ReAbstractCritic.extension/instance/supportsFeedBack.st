@@ -1,3 +1,3 @@
 *qualityAssistant
-supportsFeedBack
+supportsFeedback
 	^ true

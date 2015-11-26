@@ -2,22 +2,22 @@
 gtInspectorCriticsIn: composite
 	"This provides a list of all critics"
 	<gtInspectorPresentationOrder: 20>
-	| critics |
+	| qaReportables |
 	
 	composite list 
-		when: [ QASettings inspectorPluggin and: [ (critics := self critics) notEmpty ] ];
-		title: [ critics size asString, (' critic' asPluralBasedOn: critics) ];
+		when: [ QASettings inspectorPluggin and: [ (qaReportables := self qaReportables) notEmpty ] ];
+		title: [ qaReportables size asString, (' critic' asPluralBasedOn: qaReportables) ];
 		titleIcon: [ CircleMorph new
 			extent: 16 @ 16;
 			borderWidth: 0;
 			color: Color red darker darker;
 			addMorphCentered:
-				(critics size asStringMorph
+				(qaReportables size asStringMorph
 					color: Color white;
 					emphasis: 1;
 					yourself);
 			iconOrThumbnail ];
-		display: [ self critics ];
+		display: [ qaReportables ];
 		icon: #icon;
 		format: #title;
 		tags: [ :critic | { critic rule group } ]

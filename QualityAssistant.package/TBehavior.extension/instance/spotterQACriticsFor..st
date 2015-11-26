@@ -1,16 +1,16 @@
 *qualityAssistant
 spotterQACriticsFor: aStep
 	<spotterOrder: 0>
-	| critics |
+	| qaReportables |
 	
 	"A way to disable plugin from prefs"
-	critics := QASettings spotterPlugin
-		ifTrue: [ self critics asArray ]
+	qaReportables := QASettings spotterPlugin
+		ifTrue: [ self qaReportables asArray ]
 		ifFalse: [ #() ].
 	
 	aStep listProcessor
 		title: 'QA Critics';
-		items: [ critics ];
+		items: [ qaReportables ];
 		itemName: #title;
 		itemIcon: #icon;
 		filter: GTFilterSubstring

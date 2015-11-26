@@ -1,4 +1,4 @@
-listLine-morph
+list-morph
 displayCritic: aCritic
 	| listItem |
 	listItem := Morph new
@@ -18,8 +18,8 @@ displayCritic: aCritic
 		IconicButton new
 			target: action;
 			labelGraphic: action icon;
-			actionSelector: #actOn:;
-			arguments: { aCritic };
+			actionSelector: #actOnCritic:ofEntity:;
+			arguments: { aCritic . entity };
 			color: Color transparent;
 			helpText: action description;
 			extent: 16 @ 16;
@@ -32,7 +32,7 @@ displayCritic: aCritic
 		height: 5;
 		yourself).
 	
-	aCritic supportsFeedBack ifTrue: [
+	aCritic supportsFeedback ifTrue: [
 		listItem addMorphBack: (QAFeedbackMorph new critic: aCritic) ].
 	
 	^ listItem
