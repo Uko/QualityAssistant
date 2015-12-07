@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfQualityAssistantRecording",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfQualityAssistantRecording",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

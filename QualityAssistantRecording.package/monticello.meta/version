@@ -1,0 +1,5 @@
+(name 'QualityAssistantRecording-YuriyTymchuk.5' message 'added cattegory to the collector' id 'a0b83163-ccfd-4f6b-b74c-0c501516d756' date '19 November 2015' time '10:52:03.467507 pm' author 'YuriyTymchuk' ancestors ((name 'QualityAssistantRecording-Uko.4' message 'Moved to the new event collector
+' id '050664c0-de68-5eb4-a738-3ee6bf16d1b4' date '4 November 2015' time '3:23:41 pm' author 'Uko' ancestors ((name 'QualityAssistantRecording-Uko.3' message 'Changes subscription to weak
+' id '32f9cf05-dff3-5348-80e4-e273e205a4a2' date '28 October 2015' time '7:09:24 pm' author 'Uko' ancestors ((name 'QualityAssistantRecording-Uko.2' message 'Added milliseconds extension
+' id '1c41978f-c833-5ffd-9c81-029c4ab92257' date '30 August 2015' time '12:17:11 am' author 'Uko' ancestors ((name 'QualityAssistantRecording-Uko.1' message 'initial commit
+' id '90976c36-4381-53d0-b603-b7a52c4be7fb' date '30 August 2015' time '12:12:35 am' author 'Uko' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
