@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"initialize" : "Uko 11/4/2015 15:23:41" },
+		"initialize" : "YuriyTymchuk 12/8/2015 00:46",
+		"uniqueInstance" : "YuriyTymchuk 12/8/2015 00:30",
+		"unload" : "YuriyTymchuk 12/8/2015 00:47" },
 	"instance" : {
-		"initialize" : "YuriyTymchuk 11/17/2015 17:17",
-		"recordAnnouncement:" : "Uko 11/4/2015 15:23:41" } }
+		"initialize" : "Uko 11/19/2015 22:52:04",
+		"recordAnnouncement:" : "YuriyTymchuk 12/8/2015 00:27" } }

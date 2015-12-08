@@ -1,4 +1,7 @@
 class initialization
 initialize
-	ReEngine uniqueInstance announcer unsubscribe: self uniqueInstance.
-	ReEngine uniqueInstance announcer weak when: ReCriticEvent send: #recordAnnouncement: to: self uniqueInstance
+	ReSystemAnnouncer uniqueInstance unsubscribe: self uniqueInstance.
+	ReSystemAnnouncer uniqueInstance weak when: ReCriticEvent send: #recordAnnouncement: to: self uniqueInstance.
+	self uniqueInstance
+		occupant: ReSystemAnnouncer uniqueInstance;
+		register.

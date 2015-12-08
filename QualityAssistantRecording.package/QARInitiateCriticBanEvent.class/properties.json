@@ -1,14 +1,14 @@
 {
 	"category" : "QualityAssistantRecording",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 11/4/2015 14:04",
+	"commentStamp" : "YuriyTymchuk 12/8/2015 00:13",
 	"instvars" : [
 		 ],
-	"name" : "QAEventCollector",
+	"name" : "QARInitiateCriticBanEvent",
 	"pools" : [
 		 ],
-	"super" : "GTEventCollector",
+	"super" : "QARSingleCriticEvent",
 	"type" : "normal" }

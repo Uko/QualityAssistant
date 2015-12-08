@@ -1,3 +1,5 @@
 events
 recordAnnouncement: anAnnouncement
-	Privacy sendDiagnosticsAndUsageData ifTrue: [ self add: anAnnouncement stringified ]
+	Privacy sendDiagnosticsAndUsageData ifFalse: [ ^ self ].	
+	(anAnnouncement respondsTo: #asQAREvent) ifTrue: [	
+		self add: anAnnouncement asQAREvent ]
