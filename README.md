@@ -14,7 +14,7 @@ Hi, I'm your personal quality assistant. I run SmallLint rules on the code that 
 
 Installation
 ------------
-:exclamation: QualityAssistant comes pre-installed with **Pharo5**
+:exclamation: QualityAssistant comes pre-installed with **Pharo5** (from 23.07.2015 v50185)
 
 The easiest way to install is to use **Configuration Browser**. Otherwise you can execute the following script.
 
