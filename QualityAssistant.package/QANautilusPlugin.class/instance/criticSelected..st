@@ -1,6 +1,6 @@
 interaction delegation
 criticSelected: aCritic
-	aCritic providesSelection ifTrue: [ 
+	aCritic sourceAnchor providesInterval ifTrue: [ 
 		self model codeTextMorph
-			setSelection: aCritic selection;
+			setSelection: aCritic sourceAnchor interval;
 			takeKeyboardFocus ]
