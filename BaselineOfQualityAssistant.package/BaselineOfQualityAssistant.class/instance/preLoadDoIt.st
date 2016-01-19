@@ -2,4 +2,4 @@ pre-post-load-do-its
 preLoadDoIt
 
 	self uninstallObsoletePlugin.
-	self removeRenrakuCrap
+	self removeExtensionMethods

@@ -1,14 +1,13 @@
 pre-post-load-do-its
-removeRenrakuCrap
+removeExtensionMethods
 
 	| qaPackage |
 	
 	qaPackage := (#QualityAssistant asPackageIfAbsent: [ ^ self ]).
 	
-	self removedExtendedCLasses do: [ :className |
-		className asClassIfPresent: [ :class |
+	qaPackage extendedClasses do: [ :class |
 			class protocols
     			select: [ :prot | prot asLowercase beginsWith: qaPackage methodCategoryPrefix ]
-    			thenDo: [ :prot | class removeProtocol: prot ] ] ].
+    			thenDo: [ :prot | class removeProtocol: prot ] ].
     
 	qaPackage mcWorkingCopy modified: false
