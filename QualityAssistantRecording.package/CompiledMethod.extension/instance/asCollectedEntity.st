@@ -1,0 +1,3 @@
+*qualityAssistantRecording
+asCollectedEntity
+	^ self asCollectedRingDefinition

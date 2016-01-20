@@ -5,10 +5,10 @@ asCollectedEntity
 	newTree := self copyInContext: Dictionary new.
 	newTree instVarNamed: #selector put:
 		(GlobalIdentifier uniqueInstance obfuscateIfNecessary: self selector).
-	self methodClass ifNotNil: [ :class |
+	self compilationContext ifNotNil: [ self methodClass ifNotNil: [ :class |
 		newTree compilationContext: (CompilationContext default
 			class: class asCollectedRingDefinition);
-			yourself ].
+			yourself ] ].
 		
 	Privacy sendSourceCode ifFalse: [ 
 		newTree
