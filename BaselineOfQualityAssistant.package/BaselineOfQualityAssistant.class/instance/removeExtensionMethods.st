@@ -15,7 +15,6 @@ removeExtensionMethods
 				class protocols
   	  				select: [ :prot | prot asLowercase beginsWith: package methodCategoryPrefix ]
     				thenDo: [ :prot |
-						(class methodsInProtocol: prot) do: #removeFromSystem.
-					 	class removeProtocol: prot ] ].
+					 	[ class removeProtocol: prot ] on: ProtocolRemovalException do: [  ] ] ].
     
 			package mcWorkingCopy modified: false ]
