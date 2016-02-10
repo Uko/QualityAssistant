@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistantRecording",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 2/10/2016 11:54",
+	"instvars" : [
+		 ],
+	"name" : "QARCriticDescriptionViewed",
+	"pools" : [
+		 ],
+	"super" : "QARSingleCriticEvent",
+	"type" : "normal" }

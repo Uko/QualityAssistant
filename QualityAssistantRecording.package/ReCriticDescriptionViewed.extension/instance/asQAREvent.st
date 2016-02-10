@@ -1,0 +1,3 @@
+*qualityAssistantRecording
+asQAREvent
+	^ QARCriticDescriptionViewed fromAnnouncement: self
