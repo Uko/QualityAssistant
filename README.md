@@ -1,4 +1,4 @@
-Quality Assistant [![Build Status](https://ci.inria.fr/pharo-contribution/buildStatus/icon?job=QualityAssistant)](https://ci.inria.fr/pharo-contribution/job/QualityAssistant/)
+Quality Assistant [![Build Status](https://travis-ci.org/Uko/QualityAssistant.svg?branch=master)](https://travis-ci.org/Uko/QualityAssistant)
 =====================
 
 Hi, I'm your personal quality assistant. I run SmallLint rules on the code that you modify, and notify you about the critics right in the system browser. If you find any bugs in me please [report them](https://github.com/Uko/QualityAssistant/issues).
