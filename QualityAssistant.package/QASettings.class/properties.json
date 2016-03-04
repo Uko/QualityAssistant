@@ -11,5 +11,5 @@
 	"name" : "QASettings",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }
