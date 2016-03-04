@@ -1,0 +1,14 @@
+{
+	"category" : "QualityAssistantRecording",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 3/4/2016 16:52",
+	"instvars" : [
+		"showErrors" ],
+	"name" : "QARecordingSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
