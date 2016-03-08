@@ -9,4 +9,5 @@ startUp: resuming
 		#spotter   -> QASettings spotterPlugin
 		} asDictionary;
 	register
-	] on: Error do: [ ]
+	] on: Error
+	  do: [ :error | QARecordingSettings showErrors ifTrue: [ error pass ] ]
