@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"initialize" : "YuriyTymchuk 3/8/2016 15:15",
+		"initialize" : "YuriyTymchuk 3/9/2016 01:02",
 		"recordAnnouncement:" : "YuriyTymchuk 1/11/2016 16:10",
-		"startUp:" : "YuriyTymchuk 3/8/2016 15:24",
+		"startUp:" : "YuriyTymchuk 3/9/2016 01:04",
 		"uniqueInstance" : "YuriyTymchuk 1/11/2016 16:05",
 		"unload" : "YuriyTymchuk 1/11/2016 15:09" },
 	"instance" : {
-		"defaultCategory" : "YuriyTymchuk 1/8/2016 17:28",
-		"initialize" : "YuriyTymchuk 1/11/2016 15:10",
-		"recordAnnouncement:" : "YuriyTymchuk 3/4/2016 17:42" } }
+		"defaultCategory" : "YuriyTymchuk 3/9/2016 00:16",
+		"initialize" : "YuriyTymchuk 3/9/2016 00:20",
+		"recordAnnouncement:" : "YuriyTymchuk 3/9/2016 00:16" } }

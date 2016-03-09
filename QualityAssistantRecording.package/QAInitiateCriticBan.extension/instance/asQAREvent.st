@@ -1,3 +1,0 @@
-*qualityAssistantRecording
-asQAREvent
-	^ QARInitiateCriticBanEvent fromAnnouncement: self

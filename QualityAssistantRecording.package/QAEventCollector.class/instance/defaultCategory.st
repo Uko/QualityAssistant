@@ -1,3 +1,3 @@
 configuration
 defaultCategory
-	^ #qualityAssistant
+	^ #qualityAssistantEvents
