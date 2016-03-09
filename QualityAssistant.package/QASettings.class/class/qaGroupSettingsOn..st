@@ -2,5 +2,4 @@ settings-definition
 qaGroupSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #qualityAssistant)
-		label: 'QualityAssistant' translated;
-		noOrdering.
+		label: 'QualityAssistant' translated.

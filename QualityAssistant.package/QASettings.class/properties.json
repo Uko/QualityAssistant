@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "YuriyTymchuk 10/20/2015 11:57",
 	"instvars" : [
-		"inspectorPlugin",
-		"spotterPlugin" ],
+		"inspectorPlugin" ],
 	"name" : "QASettings",
 	"pools" : [
 		 ],
