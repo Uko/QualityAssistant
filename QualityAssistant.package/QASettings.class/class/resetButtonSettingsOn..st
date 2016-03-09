@@ -11,6 +11,6 @@ resetButtonSettingsOn: aBuilder
 			SimpleButtonMorph new
 				target: ReRuleManager;
 				label: 'Reset Renraku rule cache';
-				actionSelector: #reset;
+				actionSelector: #resetWithInform;
 				themeChanged;
 				yourself ].
