@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"initialize" : "YuriyTymchuk 3/9/2016 01:02",
+		"initialize" : "YuriyTymchuk 3/9/2016 01:09",
 		"recordAnnouncement:" : "YuriyTymchuk 1/11/2016 16:10",
-		"startUp:" : "YuriyTymchuk 3/9/2016 01:04",
+		"recordMeta" : "YuriyTymchuk 3/9/2016 01:08",
+		"startUp:" : "YuriyTymchuk 3/9/2016 01:09",
 		"uniqueInstance" : "YuriyTymchuk 1/11/2016 16:05",
 		"unload" : "YuriyTymchuk 1/11/2016 15:09" },
 	"instance" : {

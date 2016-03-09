@@ -4,6 +4,7 @@ initialize
 		register: (ClassSessionHandler forClassNamed: self name)
 		inCategory: SessionManager default toolsCategory  
 		atPriority: SessionManager default defaultPriority + 1000.
+	self recordMeta.
 
 	uniqueInstance := WeakArray new: 1.
 	ReSystemAnnouncer uniqueInstance unsubscribe: self.
