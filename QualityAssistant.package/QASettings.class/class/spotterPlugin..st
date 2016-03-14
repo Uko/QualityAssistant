@@ -1,11 +1,11 @@
 settings-accessing
 spotterPlugin: aBoolean 
-	
+
 	self spotterExtMethods do: [ :m |
 		aBoolean
 			ifTrue:  [
-				GTSpotterExtensionSettings enableProcessorDefinedInMethod: m ]
+			 [ GTSpotterExtensionSettings enableProcessorDefinedInMethod: m ]
+					on: NotFound
+					do: [  ] ]
 			ifFalse: [ 
-			 [ GTSpotterExtensionSettings disableProcessorDefinedInMethod: m ]
-				on: NotFound
-				do: [  ] ] ]
+				GTSpotterExtensionSettings disableProcessorDefinedInMethod: m ] ]
