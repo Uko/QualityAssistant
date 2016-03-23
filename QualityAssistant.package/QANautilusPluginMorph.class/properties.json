@@ -1,7 +1,7 @@
 {
 	"category" : "QualityAssistant",
 	"classinstvars" : [
-		 ],
+		"wasOpenedBefore" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "YuriyTymchuk 4/16/2015 14:48",

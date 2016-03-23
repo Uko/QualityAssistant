@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"cleanUp" : "YuriyTymchuk 3/23/2016 14:39",
+		"wasOpenedBefore" : "YuriyTymchuk 3/23/2016 14:38",
+		"wasOpenedBefore:" : "YuriyTymchuk 3/23/2016 14:39" },
 	"instance" : {
 		"adoptPaneColor:" : "Uko 5/24/2015 23:46:14",
 		"allowToSelect" : "Uko 5/24/2015 23:46:14",
@@ -12,8 +14,8 @@
 		"getCritics" : "YuriyTymchuk 12/8/2015 01:25",
 		"iconFor:at:" : "Uko 5/24/2015 23:46:14",
 		"iconMaxSize" : "Uko 5/24/2015 23:46:14",
-		"initialize" : "YuriyTymchuk 8/9/2015 00:21",
-		"initializeList" : "YuriyTymchuk 8/21/2015 19:04",
+		"initialize" : "YuriyTymchuk 3/23/2016 16:29",
+		"initializeList" : "YuriyTymchuk 3/23/2016 15:19",
 		"initializeProgress" : "Uko 5/24/2015 23:46:14",
 		"initializeUpdateTask" : "YuriyTymchuk 1/19/2016 11:55",
 		"intoWorld:" : "Uko 11/19/2015 17:20:20",
@@ -21,9 +23,10 @@
 		"outOfWorld:" : "Uko 11/19/2015 17:20:20",
 		"pluginDelegate" : "Uko 5/24/2015 23:46:14",
 		"pluginDelegate:" : "Uko 5/24/2015 23:46:14",
+		"privacyMorph" : "YuriyTymchuk 3/23/2016 16:31",
 		"selected:" : "YuriyTymchuk 2/10/2016 13:50",
 		"setTaskAction" : "YuriyTymchuk 1/14/2016 00:22",
 		"stopTask" : "Uko 11/19/2015 17:20:20",
 		"subscribe" : "YuriyTymchuk 8/9/2015 00:19",
 		"taskCompleted" : "YuriyTymchuk 12/8/2015 01:26",
-		"updateList" : "Uko 11/19/2015 17:20:20" } }
+		"updateList" : "YuriyTymchuk 3/23/2016 15:18" } }

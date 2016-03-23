@@ -9,6 +9,7 @@ initializeList
 		getIconSelector: #iconFor:at:;
 		vResizing: #spaceFill; 
 		hResizing: #spaceFill;
+		color: self theme backgroundColor;
 		backgroundColoringBlockOrSelector: [ :item :index |
 			index odd
 				ifTrue:  [ Smalltalk ui theme backgroundColor ]
