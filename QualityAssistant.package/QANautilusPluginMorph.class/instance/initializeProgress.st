@@ -15,8 +15,5 @@ initializeProgress
 	progressMorph
 		addMorph: ('Updating critics...' asMorph
 			color: Smalltalk ui theme disabledTextColor;
-			yourself);
-		addMorph: (LoadingMorph new 
-			applyState: SmallCogInitialState new;
 			yourself)
 	 
