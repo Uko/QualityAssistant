@@ -1,4 +1,5 @@
 cleanup
 cleanUp
 
-	wasOpenedBefore := nil
+	wasOpenedBefore := nil.
+	privacyPrompTask := nil

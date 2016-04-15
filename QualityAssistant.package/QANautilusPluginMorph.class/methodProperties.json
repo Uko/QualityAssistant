@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"cleanUp" : "YuriyTymchuk 3/23/2016 14:39",
+		"cleanUp" : "YuriyTymchuk 4/15/2016 11:31",
+		"startPrivacyPromptTaskIfNecessary" : "YuriyTymchuk 4/15/2016 11:32",
 		"wasOpenedBefore" : "YuriyTymchuk 3/23/2016 14:38",
 		"wasOpenedBefore:" : "YuriyTymchuk 3/23/2016 14:39" },
 	"instance" : {
@@ -23,7 +24,7 @@
 		"outOfWorld:" : "Uko 11/19/2015 17:20:20",
 		"pluginDelegate" : "Uko 5/24/2015 23:46:14",
 		"pluginDelegate:" : "Uko 5/24/2015 23:46:14",
-		"privacyMorph" : "YuriyTymchuk 3/23/2016 16:31",
+		"privacyMorph" : "YuriyTymchuk 4/15/2016 11:32",
 		"selected:" : "YuriyTymchuk 2/10/2016 13:50",
 		"setTaskAction" : "YuriyTymchuk 1/14/2016 00:22",
 		"stopTask" : "Uko 11/19/2015 17:20:20",

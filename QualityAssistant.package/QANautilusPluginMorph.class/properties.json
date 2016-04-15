@@ -1,7 +1,8 @@
 {
 	"category" : "QualityAssistant",
 	"classinstvars" : [
-		"wasOpenedBefore" ],
+		"wasOpenedBefore",
+		"privacyPrompTask" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "YuriyTymchuk 4/16/2015 14:48",
