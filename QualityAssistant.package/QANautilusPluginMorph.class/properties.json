@@ -1,8 +1,7 @@
 {
 	"category" : "QualityAssistant",
 	"classinstvars" : [
-		"wasOpenedBefore",
-		"privacyPrompTask" ],
+		"wasOpenedBefore" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "YuriyTymchuk 4/16/2015 14:48",
@@ -12,7 +11,8 @@
 		"entity",
 		"pluginDelegate",
 		"updateTask",
-		"critics" ],
+		"critics",
+		"showPrivacyMorph" ],
 	"name" : "QANautilusPluginMorph",
 	"pools" : [
 		 ],
