@@ -2,9 +2,9 @@ initialization
 initializeList
 	listMorph := NonfocusablePluggableIconListMorph new
 		model: self;
-		getListSelector: #getCritics;
+		getListSelector: #getCritiques;
 		setIndexSelector:  #selected:;
-		wrapSelector: #displayCritic:;
+		wrapSelector: #displayCritique:;
 		hideHScrollBarIndefinitely: true;
 		getIconSelector: #iconFor:at:;
 		vResizing: #spaceFill; 

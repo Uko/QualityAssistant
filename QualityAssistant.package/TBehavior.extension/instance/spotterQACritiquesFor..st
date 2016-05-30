@@ -1,5 +1,5 @@
 *qualityAssistant
-spotterQACriticsFor: aStep
+spotterQACritiquesFor: aStep
 	<spotterOrder: 0>
 	| eProperties |
 	

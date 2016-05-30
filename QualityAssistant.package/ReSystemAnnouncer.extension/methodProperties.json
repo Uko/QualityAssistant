@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"notifyBanInitiatedFor:of:" : "YuriyTymchuk 11/20/2015 16:35",
-		"notifyCritic:AutoFixedFor:" : "YuriyTymchuk 11/20/2015 16:35",
-		"notifyCritic:clickedOnFor:" : "YuriyTymchuk 2/10/2016 14:09",
-		"notifyCriticsSeen:of:" : "YuriyTymchuk 11/20/2015 16:35",
-		"notifyViewedDiffFor:of:" : "YuriyTymchuk 11/20/2015 16:35" } }
+		"notifyBanInitiatedFor:of:" : "YuriyTymchuk 5/30/2016 17:24",
+		"notifyCritique:AutoFixedFor:" : "YuriyTymchuk 5/30/2016 17:24",
+		"notifyCritique:clickedOnFor:" : "YuriyTymchuk 5/30/2016 17:25",
+		"notifyCritiquesSeen:of:" : "YuriyTymchuk 5/30/2016 17:25",
+		"notifyViewedDiffFor:of:" : "YuriyTymchuk 5/30/2016 17:25" } }

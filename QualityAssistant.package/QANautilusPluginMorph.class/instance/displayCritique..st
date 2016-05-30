@@ -1,5 +1,5 @@
 list-morph
-displayCritic: aCritic
+displayCritique: aCritique
 	| listItem |
 
 	listItem := Morph new
@@ -13,27 +13,27 @@ displayCritic: aCritic
 		layoutInset: (Margin left: 0 top: 0 right: 10 bottom: 0);
 		yourself.
 	
-	listItem addMorph: aCritic title asStringMorph.
+	listItem addMorph: aCritique title asStringMorph.
 	
-	aCritic actions do: [ :action | listItem addMorphBack: (
+	aCritique actions do: [ :action | listItem addMorphBack: (
 		IconicButton new
 			target: action;
 			labelGraphic: action icon;
 			actionSelector: #actOnCritic:ofEntity:;
-			arguments: { aCritic . entity };
+			arguments: { aCritique . entity };
 			color: Color transparent;
 			helpText: action description;
 			extent: 16 @ 16;
 			borderWidth: 0;
 			yourself) ].
 
-	aCritic isCritic ifTrue: [
+	aCritique isCritic ifTrue: [
 		listItem addMorphBack: (Morph new
 			color: Color transparent;
 			hResizing: #spaceFill;
 			height: 5;
 			yourself).
 	
-		listItem addMorphBack: (QAFeedbackMorph new critic: aCritic) ].
+		listItem addMorphBack: (QAFeedbackMorph new critique: aCritique) ].
 	
 	^ listItem

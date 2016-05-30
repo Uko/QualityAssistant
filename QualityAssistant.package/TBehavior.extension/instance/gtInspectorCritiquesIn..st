@@ -1,5 +1,5 @@
 *qualityAssistant
-gtInspectorCriticsIn: composite
+gtInspectorCritiquesIn: composite
 	"This provides a list of all external properties"
 	<gtInspectorPresentationOrder: 20>
 	| eProperties |

@@ -10,5 +10,5 @@
 	"name" : "QAViewedDiff",
 	"pools" : [
 		 ],
-	"super" : "ReSingleCriticEvent",
+	"super" : "ReSingleCritiqueEvent",
 	"type" : "normal" }

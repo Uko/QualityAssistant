@@ -8,7 +8,7 @@ registerTo: aModel
 		when: NautilusMethodSelected   send: #methodSelected: to: self.
 		
 	ReSystemAnnouncer uniqueInstance weak
-		when: ReCriticBanned
-		send: #criticBanned:
+		when: ReCritiqueBanned
+		send: #critiqueBanned:
 		to: self
 	

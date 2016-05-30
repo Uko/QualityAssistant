@@ -11,8 +11,8 @@
 		"entity",
 		"pluginDelegate",
 		"updateTask",
-		"critics",
-		"showPrivacyMorph" ],
+		"showPrivacyMorph",
+		"critiques" ],
 	"name" : "QANautilusPluginMorph",
 	"pools" : [
 		 ],

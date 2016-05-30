@@ -1,4 +1,4 @@
 *qualityAssistant
-Behavior_spotterQACriticsFor: aBoolean
+TraitBehavior_spotterQACritiquesFor: aBoolean
 
 	^ QASettings spotterPlugin: aBoolean

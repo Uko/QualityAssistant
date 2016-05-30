@@ -1,12 +1,12 @@
 *qualityAssistant
-gtInspectorCriticsIn: composite
+gtInspectorCritiquesIn: composite
 	"This provides a list of all external properties"
 	<gtInspectorPresentationOrder: 20>
 	| eProperties |
 	
 	composite list 
 		when: [ QASettings inspectorPluggin and: [ (eProperties := self externalProperties) notEmpty ] ];
-		title: [ eProperties size asString, (' critic' asPluralBasedOn: eProperties) ];
+		title: [ eProperties size asString, (' critique' asPluralBasedOn: eProperties) ];
 		titleIcon: [ CircleMorph new
 			extent: 16 @ 16;
 			borderWidth: 0;
@@ -20,4 +20,4 @@ gtInspectorCriticsIn: composite
 		display: [ self externalProperties ];
 		icon: #icon;
 		format: #title;
-		tags: [ :critic | { critic rule group } ]
+		tags: [ :critique | { critique  rule group } ]

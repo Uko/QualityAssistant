@@ -2,7 +2,7 @@ initialization
 initialize
 	super initialize.
 	
-	critics := #().
+	critiques := #().
 	
 	self
 		layoutPolicy: TableLayout new;

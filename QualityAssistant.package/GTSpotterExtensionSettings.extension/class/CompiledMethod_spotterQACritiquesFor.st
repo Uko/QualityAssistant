@@ -1,4 +1,4 @@
 *qualityAssistant
-CompiledMethod_spotterQACriticsFor
+CompiledMethod_spotterQACritiquesFor
 
 	^ QASettings spotterPlugin 

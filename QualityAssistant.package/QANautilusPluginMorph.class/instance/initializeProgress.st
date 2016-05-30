@@ -13,7 +13,7 @@ initializeProgress
 		yourself.
 	
 	progressMorph
-		addMorph: ('Updating critics...' asMorph
+		addMorph: ('Updating critiques...' asMorph
 			color: Smalltalk ui theme disabledTextColor;
 			yourself)
 	 

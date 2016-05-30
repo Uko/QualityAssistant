@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "YuriyTymchuk 8/29/2015 22:08",
+	"commentStamp" : "YuriyTymchuk 2/10/2016 11:50",
 	"instvars" : [
 		 ],
-	"name" : "QAInitiateCriticBan",
+	"name" : "QACritiqueClickedOn",
 	"pools" : [
 		 ],
-	"super" : "ReSingleCriticEvent",
+	"super" : "ReSingleCritiqueEvent",
 	"type" : "normal" }

@@ -1,5 +1,5 @@
 *qualityAssistant
-spotterQACriticsFor: aStep
+spotterQACritiquesFor: aStep
 	<spotterOrder: 0>
 	| eProperties |
 	
@@ -11,7 +11,7 @@ spotterQACriticsFor: aStep
 	
 	
 	aStep listProcessor
-		title: 'QA Critics';
+		title: 'QA Critiques';
 		items: [ eProperties ];
 		itemName: #title;
 		itemIcon: #icon;

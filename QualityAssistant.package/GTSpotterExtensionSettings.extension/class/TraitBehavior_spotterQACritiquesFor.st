@@ -1,4 +1,4 @@
 *qualityAssistant
-Behavior_spotterQACriticsFor
+TraitBehavior_spotterQACritiquesFor
 
 	^ QASettings spotterPlugin 

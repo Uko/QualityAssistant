@@ -9,7 +9,7 @@
 		"positive",
 		"negative",
 		"text",
-		"critic" ],
+		"critique" ],
 	"name" : "QAFeedbackMorph",
 	"pools" : [
 		 ],

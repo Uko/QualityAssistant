@@ -1,5 +1,5 @@
 announcement handling
-criticBanned: ann
+critiqueBanned: ann
 
 	ann entity = self currentEntity ifTrue: [ 
 		self updateMorph ]
