@@ -4,11 +4,11 @@ dataForQAR
 	| data |
 
 	data := super dataForQAR
-		at: #critics put:
-			(critics collect: #dataForQAREntityless as: Array);
+		at: #critiques put:
+			(critiques collect: #dataForQAREntityless as: Array);
 		yourself.
 		
-	critics ifEmpty: [ 
+	critiques ifEmpty: [ 
 		(data at: #entity) removeKey: #sourceCode ifAbsent: [  ] ].
 
 	^ data

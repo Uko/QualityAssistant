@@ -2,5 +2,5 @@
 dataForQAR
 
 	^ super dataForQAR
-		at: #critic put: critic dataForQAREntityless;
+		at: #critique put: critique dataForQAREntityless;
 		yourself
