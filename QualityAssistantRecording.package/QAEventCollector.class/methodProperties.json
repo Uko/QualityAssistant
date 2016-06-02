@@ -1,12 +1,15 @@
 {
-	"class" : {
-		"initialize" : "YuriyTymchuk 3/9/2016 01:09",
-		"recordAnnouncement:" : "YuriyTymchuk 1/11/2016 16:10",
-		"recordMeta" : "YuriyTymchuk 3/9/2016 01:08",
-		"startUp:" : "YuriyTymchuk 3/9/2016 01:09",
-		"uniqueInstance" : "YuriyTymchuk 1/11/2016 16:05",
-		"unload" : "YuriyTymchuk 1/11/2016 15:09" },
 	"instance" : {
-		"defaultCategory" : "YuriyTymchuk 3/9/2016 00:16",
 		"initialize" : "YuriyTymchuk 3/15/2016 00:15",
-		"recordAnnouncement:" : "YuriyTymchuk 3/14/2016 23:44" } }
+		"recordAnnouncement:" : "YuriyTymchuk 3/14/2016 23:44",
+		"defaultCategory" : "YuriyTymchuk 3/9/2016 00:16"
+	},
+	"class" : {
+		"initialize" : "YuriyTymchuk 6/1/2016 23:16",
+		"uniqueInstance" : "YuriyTymchuk 1/11/2016 16:05",
+		"startUp:" : "YuriyTymchuk 3/9/2016 01:09",
+		"recordMeta" : "YuriyTymchuk 3/9/2016 01:08",
+		"recordAnnouncement:" : "YuriyTymchuk 1/11/2016 16:10",
+		"unload" : "YuriyTymchuk 1/11/2016 15:09"
+	}
+}
