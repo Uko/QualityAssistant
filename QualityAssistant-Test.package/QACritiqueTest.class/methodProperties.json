@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"testGuidedBan" : "YuriyTymchuk 6/6/2016 15:37",
+		"runWithMorphicDidalogPopping:" : "YuriyTymchuk 6/6/2016 16:23",
 		"testFixAction" : "YuriyTymchuk 6/6/2016 15:39",
-		"runWithDidalogPopping:" : "YuriyTymchuk 6/6/2016 15:51"
+		"testGuidedBan" : "YuriyTymchuk 6/6/2016 15:37",
+		"runWithDidalogPopping:" : "YuriyTymchuk 6/6/2016 16:24"
 	},
 	"class" : { }
 }
