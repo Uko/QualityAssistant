@@ -1,10 +1,11 @@
 {
+	"instance" : { },
 	"class" : {
-		"Behavior_spotterQACritiquesFor" : "YuriyTymchuk 5/30/2016 17:22",
 		"Behavior_spotterQACritiquesFor:" : "YuriyTymchuk 5/30/2016 17:22",
+		"Behavior_spotterQACritiquesFor" : "YuriyTymchuk 5/30/2016 17:22",
 		"CompiledMethod_spotterQACritiquesFor" : "YuriyTymchuk 5/30/2016 17:22",
-		"CompiledMethod_spotterQACritiquesFor:" : "YuriyTymchuk 5/30/2016 17:22",
 		"TraitBehavior_spotterQACritiquesFor" : "YuriyTymchuk 5/30/2016 17:23",
-		"TraitBehavior_spotterQACritiquesFor:" : "YuriyTymchuk 5/30/2016 17:23" },
-	"instance" : {
-		 } }
+		"TraitBehavior_spotterQACritiquesFor:" : "YuriyTymchuk 5/30/2016 17:23",
+		"CompiledMethod_spotterQACritiquesFor:" : "YuriyTymchuk 5/30/2016 17:22"
+	}
+}
