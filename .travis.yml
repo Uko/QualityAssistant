@@ -6,16 +6,19 @@ os:
 smalltalk:
 - Pharo-5.0
 - Pharo-6.0
+
 env:
   global:
-  - secure: gpUoXv7DGhyO0FWIhvDINhxd6xGu12mTqn5v4ZLNdUX2Yx7Kwg1H95BGQUEocKWTCksko1c3mp7+xbLP8vGxmP1mSw1UOkN5ZwlNBjvWjACY1ehyttLHaIu46qVCu960GSV2fwKhVjzmzXspoWHTaptpwlN4y8jQkzPRTGkm8HM=
-  - secure: z3CXmIrSr+09VG8cB6qzLd8kON1kve4OKy55UAlVpZvpZ2pGwkbw79QTA7baPm2MadxmRFaFiBK5ONlVU07232gIjsd0LDlZQ6ouScdHBK7jSYy2isG8212sEIlJoVhKh0lrrIE0Zac8zVGYmpHzvRZWCyDw2tnzoS2G1SvwGS8=
+  - secure: O+KogdhPw3592DTKsW9LeApL77ch3B46A/FD+IBVUjgb0sIjfdJcPm2nsThi7/7RgqQvG8P90dTJ6fAsR6IJFZhBfEeUDKanBIT1MRbnkQLRrlJ62OICjPdhu5+1vwAsIWRPkGTwgSNNbfhoeSU4hTNUYFxlM+qXG8365GWPxN4=
+  - secure: fq1kZksqHvsTREEaGrDgTEkfhslD0mgpMBcLB034OyM5hfabCpcuRsx87851WVQBoCFu2AoKSBfDRNc5SWN2cQJf9tjRLxzGKio/6/X43vSLLT/w0V6/saeGHmZZeCCVbukruFTaYjBEWCbO708c1A/Scs2nIyw7dHyMyHVGjPU=
+
 
 deploy:
   provider: script
   skip_cleanup: true
-  script: .utility/flatDeploy.sh
+  script: ".utility/flatDeploy.sh"
   on:
-    smalltalk: Pharo-5.0
-    os: osx
+    smalltalk: Pharo-6.0
+    condition: "$TRAVIS_OS_NAME = osx"
     all_branches: true
+    tags: true
