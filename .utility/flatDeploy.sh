@@ -12,7 +12,7 @@ readonly PACKAGE_NAME="ConfigurationOfFlatQA"
 SMALLTALK_CI_VM=`find $SMALLTALK_CI_VMS -name pharo -type f -perm +0111 | head -n 1`
 
 # load the conf package
-./pharo $SMALLTALK_CI_IMAGE eval --save "Gofer new url: '$REPO_URL' username: '$HUB_USER' password: '$HUB_PASS'; package: '$PACKAGE_NAME'; load."
+$SMALLTALK_CI_VM $SMALLTALK_CI_IMAGE eval --save "Gofer new url: '$REPO_URL' username: '$HUB_USER' password: '$HUB_PASS'; package: '$PACKAGE_NAME'; load."
 
 # store the version
-./pharo $SMALLTALK_CI_IMAGE eval "ConfigurationOfFlatQA makeVersion: '$TRAVIS_TAG'"
+$SMALLTALK_CI_VM $SMALLTALK_CI_IMAGE eval "ConfigurationOfFlatQA makeVersion: '$TRAVIS_TAG'"
