@@ -13,6 +13,9 @@ env:
   - secure: fq1kZksqHvsTREEaGrDgTEkfhslD0mgpMBcLB034OyM5hfabCpcuRsx87851WVQBoCFu2AoKSBfDRNc5SWN2cQJf9tjRLxzGKio/6/X43vSLLT/w0V6/saeGHmZZeCCVbukruFTaYjBEWCbO708c1A/Scs2nIyw7dHyMyHVGjPU=
 
 
+before_deploy:
+  - ".utility/prepareDeploy.sh"
+
 deploy:
   provider: script
   skip_cleanup: true
