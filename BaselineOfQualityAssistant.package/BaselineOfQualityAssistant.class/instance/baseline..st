@@ -10,9 +10,5 @@ baseline: spec
 				package: 'QualityAssistant-Test' with: [ spec requires: 'QualityAssistant' ];
 				package: 'QualityAssistantRecording' with: [ spec requires: 'QualityAssistant' ];
 				postLoadDoIt: #installPlugin.
-				
-			spec project: 'Renraku' with: [
-  				spec
-    					className: 'ConfigurationOfRenraku';
-    					version: 'v0.13.0';
-    					repository: 'http://smalltalkhub.com/mc/YuriyTymchuk/Configuration/main' ] ]
+			
+			spec baseline: 'Renraku' with: [ spec repository: 'github://Uko/Renraku:v0.13.0' ] ] 
