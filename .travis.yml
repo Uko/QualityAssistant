@@ -18,3 +18,4 @@ deploy:
   on:
     smalltalk: Pharo-5.0
     os: osx
+    all_branches: true
