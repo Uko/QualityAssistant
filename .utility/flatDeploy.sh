@@ -9,8 +9,6 @@ readonly REPO_OWNER="YuriyTymchuk"
 readonly PROJECT_NAME="ScrapYard"
 readonly PACKAGE_NAME="ConfigurationOfFlatQA"
 
-#set the correct vm
-SMALLTALK_CI_VM=`find $SMALLTALK_CI_VMS -name pharo -type f -perm +0111 | head -n 1`
 
 #set the author name or it will get crazy…
 $SMALLTALK_CI_VM $SMALLTALK_CI_IMAGE eval --save "Author fullName: 'JohnSnow'" > /dev/null
