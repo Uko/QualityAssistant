@@ -10,4 +10,4 @@ recordAnnouncement: anAnnouncement
 		
 		] on: Error
 		  do: [ :error |
-				QARecordingSettings showErrors ifTrue: [ error pass ] ] ]
+				ReSettings showErrors ifTrue: [ error pass ] ] ]
