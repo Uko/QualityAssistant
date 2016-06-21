@@ -1,16 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 8/21/2015 12:13",
-	"super" : "BorderedMorph",
+	"commentStamp" : "YuriyTymchuk 6/21/2016 20:54",
+	"super" : "RubTextSegmentMorph",
 	"category" : "QualityAssistant",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"positive",
-		"negative",
-		"text",
+		"entity",
 		"critique"
 	],
-	"name" : "QAFeedbackMorph",
+	"name" : "QARubTextSegmentMorph",
 	"type" : "normal"
 }
