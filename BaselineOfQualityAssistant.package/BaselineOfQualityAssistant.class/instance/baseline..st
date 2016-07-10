@@ -11,4 +11,4 @@ baseline: spec
 				package: 'QualityAssistantRecording' with: [ spec requires: 'QualityAssistant' ];
 				postLoadDoIt: #installPlugin.
 			
-			spec baseline: 'Renraku' with: [ spec repository: 'github://Uko/Renraku:v0.13.5' ] ] 
+			spec baseline: 'Renraku' with: [ spec repository: 'github://Uko/Renraku:v0.14.0' ] ] 
