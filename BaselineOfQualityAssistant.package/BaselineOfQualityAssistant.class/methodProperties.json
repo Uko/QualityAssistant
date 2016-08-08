@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"baseline:" : "YuriyTymchuk 7/21/2016 10:59",
-		"installPlugin" : "Uko 7/12/2016 17:57:02",
-		"preLoadDoIt" : "Uko 7/12/2016 17:57:02",
+		"uninstallObsoletePlugin" : "Uko 7/12/2016 17:57:02",
 		"removeCrapOf:from:" : "Uko 7/12/2016 17:57:02",
+		"preLoadDoIt" : "Uko 7/12/2016 17:57:02",
+		"installPlugin" : "Uko 7/12/2016 17:57:02",
 		"removeRenrakuCrap" : "Uko 7/12/2016 17:57:02",
-		"removedExtendedClassesPerPackage" : "Uko 7/12/2016 17:57:02",
-		"uninstallObsoletePlugin" : "Uko 7/12/2016 17:57:02" } }
+		"baseline:" : "YuriyTymchuk 8/8/2016 15:43",
+		"removedExtendedClassesPerPackage" : "Uko 7/12/2016 17:57:02"
+	},
+	"class" : { }
+}
