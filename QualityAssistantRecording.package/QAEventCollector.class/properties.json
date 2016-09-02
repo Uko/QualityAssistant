@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 11/4/2015 14:04",
-	"super" : "GTEventCollector",
 	"category" : "QualityAssistantRecording",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 11/4/2015 14:04",
+	"instvars" : [
+		 ],
 	"name" : "QAEventCollector",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GTEventCollector",
+	"type" : "normal" }
