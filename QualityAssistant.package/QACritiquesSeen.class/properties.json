@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 8/29/2015 20:58",
-	"super" : "ReMultipleCritiquesEvent",
 	"category" : "QualityAssistant-Announcements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 8/29/2015 20:58",
+	"instvars" : [
+		 ],
 	"name" : "QACritiquesSeen",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ReMultipleCritiquesEvent",
+	"type" : "normal" }

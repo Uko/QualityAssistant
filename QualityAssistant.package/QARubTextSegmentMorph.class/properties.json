@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "YuriyTymchuk 6/21/2016 20:54",
-	"super" : "RubTextSegmentMorph",
 	"category" : "QualityAssistant",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 6/21/2016 20:54",
 	"instvars" : [
 		"entity",
-		"critique"
-	],
+		"critique" ],
 	"name" : "QARubTextSegmentMorph",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "RubTextSegmentMorph",
+	"type" : "normal" }

@@ -1,16 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 10/20/2015 11:57",
-	"super" : "Object",
 	"category" : "QualityAssistant",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 10/20/2015 11:57",
 	"instvars" : [
-		"inspectorPlugin",
-		"spotterPlugin"
-	],
+		 ],
 	"name" : "QASettings",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
