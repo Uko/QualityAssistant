@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "YuriyTymchuk 7/16/2015 10:54",
-	"super" : "BaselineOf",
 	"category" : "BaselineOfQualityAssistant",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "YuriyTymchuk 7/16/2015 10:54",
+	"instvars" : [
+		 ],
 	"name" : "BaselineOfQualityAssistant",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
