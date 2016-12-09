@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"baseline:" : "YuriyTymchuk 10/29/2016 18:38",
-		"installPlugin" : "Uko 9/7/2016 00:43:45",
-		"preLoadDoIt" : "Uko 9/7/2016 00:43:45",
-		"removeCrapOf:from:" : "Uko 9/7/2016 00:43:45",
-		"removeRenrakuCrap" : "Uko 9/7/2016 00:43:45",
-		"removedExtendedClassesPerPackage" : "Uko 9/7/2016 00:43:45",
-		"uninstallObsoletePlugin" : "Uko 9/7/2016 00:43:45" } }
+		"baseline:" : "YuriyTymchuk 12/9/2016 12:48",
+		"installPlugin" : "Uko 10/29/2016 18:38:53",
+		"preLoadDoIt" : "Uko 10/29/2016 18:38:53",
+		"removeCrapOf:from:" : "YuriyTymchuk 12/9/2016 12:47",
+		"removeRenrakuCrap" : "Uko 10/29/2016 18:38:53",
+		"removedExtendedClassesPerPackage" : "Uko 10/29/2016 18:38:53",
+		"uninstallObsoletePlugin" : "YuriyTymchuk 12/9/2016 12:48" } }
