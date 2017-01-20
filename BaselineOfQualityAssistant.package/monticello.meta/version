@@ -1,2 +1,2 @@
-(name 'BaselineOfQualityAssistant-YuriyTymchuk.67' message 'dep ren -> 0.15' id '5c93ed22-4d66-4cbc-8235-5756ab45a785' date '20 January 2017' time '4:11:15.512658 pm' author 'YuriyTymchuk' ancestors ((name 'BaselineOfQualityAssistant-Uko.66' message 'dep ren -> 0.14.10
-' id 'f3d7a574-ab73-5e11-aa57-44b8d016acfc' date '19 January 2017' time '6:33:51 pm' author 'Uko' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfQualityAssistant-YuriyTymchuk.68' message 'dep ren -> 0.15.1' id 'f28836e2-66c8-43f5-93b3-17114f170948' date '20 January 2017' time '9:26:21.604697 pm' author 'YuriyTymchuk' ancestors ((name 'BaselineOfQualityAssistant-Uko.67' message 'dep ren -> 0.15
+' id '56b68997-403b-51f4-a707-c72cf4936d3c' date '20 January 2017' time '4:11:29 pm' author 'Uko' ancestors () stepChildren ())) stepChildren ())
