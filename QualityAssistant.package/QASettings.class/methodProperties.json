@@ -1,9 +1,10 @@
 {
+	"instance" : { },
 	"class" : {
-		"nautilusPlugin" : "YuriyTymchuk 1/19/2016 16:23",
-		"nautilusPlugin:" : "YuriyTymchuk 1/19/2016 16:24",
+		"settingsMoovedNotice:" : "YuriyTymchuk 12/15/2016 12:59",
 		"qaGroupSettingsOn:" : "LucFabresse 11/4/2016 12:32",
-		"qaNautilusPlugginSettingOn:" : "YuriyTymchuk 12/14/2016 21:49",
-		"settingsMoovedNotice:" : "YuriyTymchuk 12/15/2016 12:59" },
-	"instance" : {
-		 } }
+		"nautilusPlugin:" : "YuriyTymchuk 1/19/2016 16:24",
+		"nautilusPlugin" : "YuriyTymchuk 1/19/2016 16:23",
+		"qaNautilusPlugginSettingOn:" : "YuriyTymchuk 12/14/2016 21:49"
+	}
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"annotateRubricText:" : "YuriyTymchuk 12/8/2016 10:45",
-		"qaTextSegmentsDo:" : "YuriyTymchuk 12/8/2016 10:47" } }
+		"qaTextSegmentsDo:" : "YuriyTymchuk 12/8/2016 10:47"
+	},
+	"class" : { }
+}

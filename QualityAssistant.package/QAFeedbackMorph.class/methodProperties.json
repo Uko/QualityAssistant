@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"critique" : "YuriyTymchuk 5/30/2016 17:30",
-		"critique:" : "YuriyTymchuk 5/30/2016 17:30",
-		"finalizeFeedback:withComment:" : "YuriyTymchuk 5/30/2016 17:15",
-		"fireDialogWithFeedback:" : "YuriyTymchuk 5/30/2016 17:41",
-		"initialize" : "YuriyTymchuk 6/21/2016 20:50",
 		"initializeNegativeFeedback" : "StephaneDucasse 9/18/2016 09:14",
-		"initializePositiveFeedback" : "StephaneDucasse 9/18/2016 09:14" } }
+		"initializePositiveFeedback" : "StephaneDucasse 9/18/2016 09:14",
+		"initialize" : "YuriyTymchuk 6/21/2016 20:50",
+		"finalizeFeedback:withComment:" : "YuriyTymchuk 5/30/2016 17:15",
+		"critique:" : "YuriyTymchuk 5/30/2016 17:30",
+		"fireDialogWithFeedback:" : "YuriyTymchuk 5/30/2016 17:41",
+		"critique" : "YuriyTymchuk 5/30/2016 17:30"
+	},
+	"class" : { }
+}

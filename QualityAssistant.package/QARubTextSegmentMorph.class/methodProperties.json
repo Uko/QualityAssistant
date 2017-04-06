@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"entity:" : "YuriyTymchuk 6/21/2016 14:34",
 		"addItemToMenu:" : "YuriyTymchuk 6/21/2016 22:45",
-		"critique" : "YuriyTymchuk 6/21/2016 22:46",
 		"critique:" : "YuriyTymchuk 6/21/2016 22:46",
 		"entity" : "YuriyTymchuk 6/21/2016 14:34",
-		"entity:" : "YuriyTymchuk 6/21/2016 14:34" } }
+		"critique" : "YuriyTymchuk 6/21/2016 22:46"
+	},
+	"class" : { }
+}
