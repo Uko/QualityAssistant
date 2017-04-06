@@ -1,9 +1,9 @@
 {
 	"instance" : {
 		"setTaskAction" : "YuriyTymchuk 5/30/2016 17:20",
-		"initialize" : "YuriyTymchuk 5/30/2016 17:20",
+		"initialize" : "YuriyTymchuk 4/7/2017 00:24",
 		"intoWorld:" : "Uko 11/19/2015 17:20:20",
-		"updateList" : "YuriyTymchuk 4/28/2016 01:09",
+		"updateList" : "YuriyTymchuk 4/7/2017 00:25",
 		"iconMaxSize" : "Uko 5/24/2015 23:46:14",
 		"iconFor:at:" : "Uko 5/24/2015 23:46:14",
 		"entity:" : "Uko 5/24/2015 23:46:14",
@@ -17,7 +17,6 @@
 		"initializeProgress" : "YuriyTymchuk 5/30/2016 17:18",
 		"pluginDelegate" : "Uko 5/24/2015 23:46:14",
 		"getCritiques" : "YuriyTymchuk 5/30/2016 17:20",
-		"privacyMorph" : "YuriyTymchuk 4/28/2016 01:10",
 		"stopTask" : "Uko 11/19/2015 17:20:20",
 		"pluginDelegate:" : "Uko 5/24/2015 23:46:14",
 		"selected:" : "YuriyTymchuk 5/30/2016 17:24",
@@ -28,9 +27,5 @@
 		"adoptPaneColor:" : "Uko 5/24/2015 23:46:14",
 		"initializeList" : "YuriyTymchuk 5/30/2016 17:18"
 	},
-	"class" : {
-		"wasOpenedBefore" : "YuriyTymchuk 3/23/2016 14:38",
-		"wasOpenedBefore:" : "YuriyTymchuk 3/23/2016 14:39",
-		"cleanUp" : "YuriyTymchuk 4/28/2016 13:38"
-	}
+	"class" : { }
 }
