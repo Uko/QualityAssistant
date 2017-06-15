@@ -1,4 +1,4 @@
-Quality Assistant [![Build Status](https://travis-ci.org/Uko/QualityAssistant.svg?branch=master)](https://travis-ci.org/Uko/QualityAssistant)
+Quality Assistant [![Build Status](https://travis-ci.org/Uko/QualityAssistant.svg?branch=master)](https://travis-ci.org/Uko/QualityAssistant) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.809410.svg)](https://doi.org/10.5281/zenodo.809410)
 =====================
 
 Hi, I'm your personal quality assistant. I run SmallLint rules on the code that you modify, and notify you about the critics right in the system browser. If you find any bugs in me please [report them](https://github.com/Uko/QualityAssistant/issues).
